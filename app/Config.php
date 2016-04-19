@@ -30,12 +30,12 @@ class Config
         /**
          * Define the complete site URL.
          */
-        define('SITEURL', 'http://localhost/WordPress-en-mieux/');
+        define('SITEURL', 'http://localhost/basenova/');
 
         /**
          * Define relative base path.
          */
-        define('DIR', '/WordPress-en-mieux/');
+        define('DIR', '/basenova/');
 
         /**
          * Set the Application Router.
@@ -101,7 +101,7 @@ class Config
         /**
          * Optional create a constant for the name of the site.
          */
-        define('SITETITLE', 'BASIS');
+        define('SITETITLE', 'WordPress V2');
 
         /**
          * Optional set a site email address.
