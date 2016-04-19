@@ -3,7 +3,21 @@ user:
   email: varchar(255)
   password: varchar(255)
   cookie: varchar(255)
-
-test:
-  toto: int
-  titi: datetime
+  admin: int(1)
+  
+categorie: 
+  titre: varchar(80) 
+  
+article:
+  idUser: int(11)  
+  idCategorie: int(11)
+  titre: varchar(80)
+  contenu: text
+  image: varchar(255)
+  date: datetime 
+    
+commentaire:
+    idArticle: int(11)
+    idUser: int(11)
+    contenu: text
+    date: datetime 

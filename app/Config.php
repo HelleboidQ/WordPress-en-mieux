@@ -76,7 +76,7 @@ class Config
         /**
          * Database name.
          */
-        define('DB_NAME', 'picassa');
+        define('DB_NAME', 'WPEM');
 
         /**
          * Database username.
@@ -86,7 +86,7 @@ class Config
         /**
          * Database password.
          */
-        define('DB_PASS', ' ');
+        define('DB_PASS', '');
 
         /**
          * PREFER to be used in database calls default is smvc_

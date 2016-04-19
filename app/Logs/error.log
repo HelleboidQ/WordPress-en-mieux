@@ -266,3 +266,34 @@ Exception information:
 
 2016-04-03 9:28AM - require(/Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Modules/Views/login.php): failed to open stream: No such file or directory in /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/View.php on line 62
 
+2016-04-19 10:25AM - mkdir(): Permission denied in /var/www/basenova/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 59
+
+Exception information:
+
+           Date: Apr 19, 2016 10:25AM
+
+           Message: Unable to create the cache directory (cache/1b).
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Cache/Filesystem.php
+
+           Line: 60
+
+           Stack trace:
+
+           #0 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(400): Twig_Cache_Filesystem->write('cache/1b/1bad8e...', '<?php\n\n/* queri...')
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('queries.twig')
+#2 /var/www/basenova/system/Helpers/Twig.php(69): Twig_Environment->render('queries.twig', Array)
+#3 /var/www/basenova/app/Modules/ORM/ORMGenerator.php(83): Helpers\Twig::generateRenderingModule('ORM/Views/queri...', Array)
+#4 /var/www/basenova/app/Modules/ORM/ORMGenerator.php(46): App\Modules\ORM\ORMGenerator->generateQueriesClasses()
+#5 [internal function]: App\Modules\ORM\ORMGenerator->generate()
+#6 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#7 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\ORM...', 'generate', Array)
+#8 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\ORM...', Array)
+#9 /var/www/basenova/app/Routes.php(46): Core\Router->dispatch()
+#10 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#11 {main}
+
+           ---------
+
