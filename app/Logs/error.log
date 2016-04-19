@@ -1,0 +1,268 @@
+2016-04-02 17:32PM - session_start(): Cannot send session cache limiter - headers already sent (output started at /Users/audemard/Dropbox/public_html/simplemvc/basenova/public/index.php:2) in /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Helpers/Session.php on line 29
+
+Exception information:
+
+           Date: Apr 02, 2016 17:42PM
+
+           Message: orm/database.yml does not exists
+
+           Code: 0
+
+           File: /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php
+
+           Line: 39
+
+           Stack trace:
+
+           #0 [internal function]: App\Controllers\ORMGenerator->generate()
+#1 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#2 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'generate', Array)
+#3 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#4 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Routes.php(39): Core\Router->dispatch()
+#5 /Users/audemard/Dropbox/public_html/simplemvc/basenova/public/index.php(73): require('/Users/audemard...')
+#6 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 02, 2016 17:42PM
+
+           Message: ../orm/database.yml does not exists
+
+           Code: 0
+
+           File: /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php
+
+           Line: 39
+
+           Stack trace:
+
+           #0 [internal function]: App\Controllers\ORMGenerator->generate()
+#1 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#2 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'generate', Array)
+#3 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#4 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Routes.php(39): Core\Router->dispatch()
+#5 /Users/audemard/Dropbox/public_html/simplemvc/basenova/public/index.php(73): require('/Users/audemard...')
+#6 {main}
+
+           ---------
+
+2016-04-02 17:44PM - Invalid argument supplied for foreach() in /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php on line 57
+
+2016-04-02 17:46PM - Invalid argument supplied for foreach() in /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php on line 57
+
+Exception information:
+
+           Date: Apr 02, 2016 17:46PM
+
+           Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0;
+CREATE TABLE 0(id int(11) NOT NULL
+);
+ALTER TABLE 0 ADD PRIMARY KEY (id);
+ALT' at line 1
+
+           Code: 42000
+
+           File: /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php
+
+           Line: 64
+
+           Stack trace:
+
+           #0 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php(64): PDO->query('DROP table IF E...')
+#1 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php(43): App\Controllers\ORMGenerator->generateSQL()
+#2 [internal function]: App\Controllers\ORMGenerator->generate()
+#3 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#4 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'generate', Array)
+#5 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#6 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Routes.php(39): Core\Router->dispatch()
+#7 /Users/audemard/Dropbox/public_html/simplemvc/basenova/public/index.php(73): require('/Users/audemard...')
+#8 {main}
+
+           ---------
+
+2016-04-02 17:47PM - Invalid argument supplied for foreach() in /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php on line 59
+
+Exception information:
+
+           Date: Apr 02, 2016 17:47PM
+
+           Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0;
+CREATE TABLE 0(id int(11) NOT NULL
+);
+ALTER TABLE 0 ADD PRIMARY KEY (id);
+ALT' at line 1
+
+           Code: 42000
+
+           File: /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php
+
+           Line: 66
+
+           Stack trace:
+
+           #0 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php(66): PDO->query('DROP table IF E...')
+#1 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php(45): App\Controllers\ORMGenerator->generateSQL()
+#2 [internal function]: App\Controllers\ORMGenerator->generate()
+#3 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#4 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'generate', Array)
+#5 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#6 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Routes.php(39): Core\Router->dispatch()
+#7 /Users/audemard/Dropbox/public_html/simplemvc/basenova/public/index.php(73): require('/Users/audemard...')
+#8 {main}
+
+           ---------
+
+2016-04-02 17:47PM - Invalid argument supplied for foreach() in /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php on line 59
+
+Exception information:
+
+           Date: Apr 02, 2016 17:47PM
+
+           Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0;
+CREATE TABLE 0(id int(11) NOT NULL
+);
+ALTER TABLE 0 ADD PRIMARY KEY (id);
+ALT' at line 1
+
+           Code: 42000
+
+           File: /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php
+
+           Line: 66
+
+           Stack trace:
+
+           #0 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php(66): PDO->query('DROP table IF E...')
+#1 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php(45): App\Controllers\ORMGenerator->generateSQL()
+#2 [internal function]: App\Controllers\ORMGenerator->generate()
+#3 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#4 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'generate', Array)
+#5 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#6 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Routes.php(39): Core\Router->dispatch()
+#7 /Users/audemard/Dropbox/public_html/simplemvc/basenova/public/index.php(73): require('/Users/audemard...')
+#8 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 02, 2016 17:50PM
+
+           Message: The "app/views/ormgenerator" directory does not exist.
+
+           Code: 0
+
+           File: /Users/audemard/Dropbox/public_html/simplemvc/basenova/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/audemard/Dropbox/public_html/simplemvc/basenova/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('app/views/ormge...', '__main__')
+#1 /Users/audemard/Dropbox/public_html/simplemvc/basenova/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('app/views/ormge...')
+#2 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Helpers/Twig.php(61): Twig_Loader_Filesystem->__construct('app/views/ormge...')
+#3 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php(83): Helpers\Twig::generateRendering('ormgenerator/qu...', Array)
+#4 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php(46): App\Controllers\ORMGenerator->generateQueriesClasses()
+#5 [internal function]: App\Controllers\ORMGenerator->generate()
+#6 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#7 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'generate', Array)
+#8 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#9 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Routes.php(39): Core\Router->dispatch()
+#10 /Users/audemard/Dropbox/public_html/simplemvc/basenova/public/index.php(73): require('/Users/audemard...')
+#11 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 02, 2016 17:56PM
+
+           Message: The "app/views/ormgenerator" directory does not exist.
+
+           Code: 0
+
+           File: /Users/audemard/Dropbox/public_html/simplemvc/basenova/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/audemard/Dropbox/public_html/simplemvc/basenova/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('app/views/ormge...', '__main__')
+#1 /Users/audemard/Dropbox/public_html/simplemvc/basenova/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('app/views/ormge...')
+#2 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Helpers/Twig.php(61): Twig_Loader_Filesystem->__construct('app/views/ormge...')
+#3 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php(83): Helpers\Twig::generateRendering('ormgenerator/qu...', Array)
+#4 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php(46): App\Controllers\ORMGenerator->generateQueriesClasses()
+#5 [internal function]: App\Controllers\ORMGenerator->generate()
+#6 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#7 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'generate', Array)
+#8 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#9 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Routes.php(39): Core\Router->dispatch()
+#10 /Users/audemard/Dropbox/public_html/simplemvc/basenova/public/index.php(73): require('/Users/audemard...')
+#11 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 02, 2016 17:58PM
+
+           Message: The "app/views/ORMGenerator" directory does not exist.
+
+           Code: 0
+
+           File: /Users/audemard/Dropbox/public_html/simplemvc/basenova/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/audemard/Dropbox/public_html/simplemvc/basenova/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('app/views/ORMGe...', '__main__')
+#1 /Users/audemard/Dropbox/public_html/simplemvc/basenova/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('app/views/ORMGe...')
+#2 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Helpers/Twig.php(61): Twig_Loader_Filesystem->__construct('app/views/ORMGe...')
+#3 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php(83): Helpers\Twig::generateRendering('ORMGenerator/qu...', Array)
+#4 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php(46): App\Controllers\ORMGenerator->generateQueriesClasses()
+#5 [internal function]: App\Controllers\ORMGenerator->generate()
+#6 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#7 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'generate', Array)
+#8 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#9 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Routes.php(39): Core\Router->dispatch()
+#10 /Users/audemard/Dropbox/public_html/simplemvc/basenova/public/index.php(73): require('/Users/audemard...')
+#11 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 02, 2016 17:59PM
+
+           Message: The "/Users/audemard/Dropbox/public_html/simplemvc/basenova/app/ORMGenerator" directory does not exist.
+
+           Code: 0
+
+           File: /Users/audemard/Dropbox/public_html/simplemvc/basenova/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/audemard/Dropbox/public_html/simplemvc/basenova/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('/Users/audemard...', '__main__')
+#1 /Users/audemard/Dropbox/public_html/simplemvc/basenova/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('/Users/audemard...')
+#2 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Helpers/Twig.php(61): Twig_Loader_Filesystem->__construct('/Users/audemard...')
+#3 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php(83): Helpers\Twig::generateRendering('ORMGenerator/qu...', Array)
+#4 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Controllers/ORMGenerator.php(46): App\Controllers\ORMGenerator->generateQueriesClasses()
+#5 [internal function]: App\Controllers\ORMGenerator->generate()
+#6 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#7 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'generate', Array)
+#8 /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#9 /Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Routes.php(39): Core\Router->dispatch()
+#10 /Users/audemard/Dropbox/public_html/simplemvc/basenova/public/index.php(73): require('/Users/audemard...')
+#11 {main}
+
+           ---------
+
+2016-04-03 9:28AM - require(/Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Views/user/login.php): failed to open stream: No such file or directory in /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/View.php on line 41
+
+2016-04-03 9:28AM - require(/Users/audemard/Dropbox/public_html/simplemvc/basenova/app/Modules/Views/login.php): failed to open stream: No such file or directory in /Users/audemard/Dropbox/public_html/simplemvc/basenova/system/Core/View.php on line 62
+
