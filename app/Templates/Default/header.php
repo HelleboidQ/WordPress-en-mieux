@@ -35,22 +35,36 @@
                     </ul>
                     <form class="navbar-form navbar-left" role="search">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search">
+                            <input type="text" class="form-control" placeholder="Rechercher...">
                         </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
+                        <button type="submit" class="btn btn-default">Rechercher</button>
                     </form>
+
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="<?= SITEURL ?>utilisateur/login">Login</a></li>
+                        <?php if (Session::get('loggedin') != 1) { ?>
+                            <li><a href="<?= SITEURL ?>utilisateur/login">Login</a></li>
+                        <?php } ?>
                         <li><a href="<?= SITEURL ?>utilisateur/inscription">Inscirption</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Utilisateur</a></li>
-                                <li><a href="#">News</a></li> 
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Logout</a></li>
-                            </ul>
-                        </li>
+                        <?php if (Session::get('admin') == 1) { ?>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Utilisateur</a></li>
+                                    <li><a href="#">News</a></li> 
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="<?= SITEURL ?>utilisateur/logout">Logout</a></li>
+                                </ul>
+                            </li>
+                        <?php } else { ?>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profil <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Modifier profil</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="<?= SITEURL ?>utilisateur/logout">Logout</a></li>
+                                </ul>
+                            </li>
+                        <?php } ?>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
