@@ -1,2 +1,7 @@
 /app/Config.php
 /.htaccess
+/cache
+/vendor
+/system
+/orm
+/nbproject
