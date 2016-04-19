@@ -169,7 +169,7 @@ class User extends Controller {
             print_r($error);
             if (!$error) {
                 //Register and return the data as an array $data[]
-                $user = new \App\Models\Tables\User($_POST['login'], $_POST['email'], Password::make($_POST['password']), "");
+                $user = new \App\Models\Tables\User($_POST['login'], $_POST['email'], Password::make($_POST['password']), "",0);
                 EntityManager::getInstance()->save($user);
                 Session::set('id', $user->getId());
                 Session::set('login', $user->login);
