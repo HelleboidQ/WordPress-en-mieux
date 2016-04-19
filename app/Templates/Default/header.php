@@ -43,9 +43,9 @@
                     <ul class="nav navbar-nav navbar-right">
                         <?php if (Session::get('loggedin') != 1) { ?>
                             <li><a href="<?= SITEURL ?>utilisateur/login">Login</a></li>
+                            <li><a href="<?= SITEURL ?>utilisateur/inscription">Inscirption</a></li>
                         <?php } ?>
-                        <li><a href="<?= SITEURL ?>utilisateur/inscription">Inscirption</a></li>
-                        <?php if (Session::get('admin') == 1) { ?>
+                        <?php if (Session::get('admin') == 1 && Session::get('loggedin') == 1) { ?>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
@@ -55,11 +55,11 @@
                                     <li><a href="<?= SITEURL ?>utilisateur/logout">Logout</a></li>
                                 </ul>
                             </li>
-                        <?php } else { ?>
+                        <?php } else if (Session::get('loggedin') == 1) { ?>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profil <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Modifier profil</a></li>
+                                    <li><a href="<?= SITEURL ?>utilisateur/modification">Modifier profil</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="<?= SITEURL ?>utilisateur/logout">Logout</a></li>
                                 </ul>
