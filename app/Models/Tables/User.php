@@ -17,12 +17,14 @@ class User extends Entity {
     public $email;     // varchar(255)
     public $password;     // varchar(255)
     public $cookie;     // varchar(255)
+    public $admin;     // int(1)
 
     public function __construct(
         $login = "",
         $email = "",
         $password = "",
         $cookie = "",
+        $admin = "",
     $id = false) {
         parent::__construct($id);
 
@@ -30,6 +32,7 @@ class User extends Entity {
         $this->email = $email;
         $this->password = $password;
         $this->cookie = $cookie;
+        $this->admin = $admin;
     }
 }
 ?>
