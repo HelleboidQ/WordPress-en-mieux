@@ -26,6 +26,11 @@ Router::any('/utilisateur/login', 'App\Modules\User\User@login');
 Router::any('/utilisateur/logout', 'App\Modules\User\User@logout');
 Router::any('/utilisateur/modification', 'App\Modules\User\User@change_password');
 
+//Admin Routing
+Router::any('/admin/categories', 'App\Controllers\Admin@manageCategories');
+Router::any('/admin/articles', 'App\Controllers\Admin@manageArticles');
+Router::any('/admin/users', 'App\Controllers\Admin@manageUsers');
+
 // ORM Generator
 if($_SERVER["SERVER_NAME"]=="localhost") {
     Router::any("generateorm",'App\Modules\ORM\ORMGenerator@index');

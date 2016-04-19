@@ -50,11 +50,11 @@ namespace Helpers;
  **/
 namespace Helpers;
 class Twig {
-    public static function render($path, $data = False, $extension = "twig") {
+    public static function render($path, $data = False, $extension = "php") {
         echo Twig::generateRendering($path, $data, $extension);
     }
 
-    public static function generateRenderingModule($path, $data = False, $extension = "twig") {
+    public static function generateRenderingModule($path, $data = False, $extension = "php") {
         $loader_path = dirname($path);
         $template_name = end(explode("/", $path)) . "." . $extension;
         $loader = new \Twig_Loader_Filesystem(APPDIR."Modules/$loader_path");
@@ -67,12 +67,11 @@ class Twig {
         ));
         $twig->AddExtension(new \Twig_Extension_Debug());
         return $twig->render($template_name, $data);
-
-
+        
     }
 
 
-    public static function generateRendering($path, $data = False, $extension = "twig") {
+    public static function generateRendering($path, $data = False, $extension = "php") {
         $loader_path = dirname($path);
         $template_name = end(explode("/", $path)) . "." . $extension;
 

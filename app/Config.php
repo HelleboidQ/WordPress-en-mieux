@@ -30,12 +30,12 @@ class Config
         /**
          * Define the complete site URL.
          */
-        define('SITEURL', 'http://localhost/basenova/');
+        define('SITEURL', 'http://localhost/WordPress-en-mieux/');
 
         /**
          * Define relative base path.
          */
-        define('DIR', '/basenova/');
+        define('DIR', '/WordPress-en-mieux/');
 
         /**
          * Set the Application Router.
@@ -86,7 +86,7 @@ class Config
         /**
          * Database password.
          */
-        define('DB_PASS', '');
+        define('DB_PASS', 'root');
 
         /**
          * PREFER to be used in database calls default is smvc_

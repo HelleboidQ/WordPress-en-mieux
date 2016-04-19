@@ -297,3 +297,2206 @@ Exception information:
 
            ---------
 
+Exception information:
+
+           Date: Apr 19, 2016 18:49PM
+
+           Message: The "/Users/jonathanleperu/Sites/WordPress-en-mieux/app/Views/Admin/Views" directory does not exist.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('/Users/jonathan...', '__main__')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('/Users/jonathan...')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(79): Twig_Loader_Filesystem->__construct('/Users/jonathan...')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Admin/Views/cat...', Array, 'twig')
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::render('Admin/Views/cat...', Array)
+#5 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#11 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:49PM
+
+           Message: The "/Users/jonathanleperu/Sites/WordPress-en-mieux/app/Views/Modules/Admin/Views" directory does not exist.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('/Users/jonathan...', '__main__')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('/Users/jonathan...')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(79): Twig_Loader_Filesystem->__construct('/Users/jonathan...')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Modules/Admin/V...', Array, 'twig')
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::render('Modules/Admin/V...', Array)
+#5 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#11 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:49PM
+
+           Message: The "/Users/jonathanleperu/Sites/WordPress-en-mieux/app/Views/Modules/Admin/Views" directory does not exist.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('/Users/jonathan...', '__main__')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('/Users/jonathan...')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(79): Twig_Loader_Filesystem->__construct('/Users/jonathan...')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Modules/Admin/V...', Array, 'twig')
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::render('Modules/Admin/V...', Array)
+#5 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#11 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:49PM
+
+           Message: The "/Users/jonathanleperu/Sites/WordPress-en-mieux/app/Views/Modules/Admin/Views" directory does not exist.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('/Users/jonathan...', '__main__')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('/Users/jonathan...')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(79): Twig_Loader_Filesystem->__construct('/Users/jonathan...')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Modules/Admin/V...', Array, 'twig')
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::render('Modules/Admin/V...', Array)
+#5 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#11 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:49PM
+
+           Message: The "/Users/jonathanleperu/Sites/WordPress-en-mieux/app/Views/Modules/Admin/Views" directory does not exist.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('/Users/jonathan...', '__main__')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('/Users/jonathan...')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(79): Twig_Loader_Filesystem->__construct('/Users/jonathan...')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Modules/Admin/V...', Array, 'twig')
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::render('Modules/Admin/V...', Array)
+#5 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#11 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:49PM
+
+           Message: The "/Users/jonathanleperu/Sites/WordPress-en-mieux/app/Views/Modules/Admin/Views" directory does not exist.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('/Users/jonathan...', '__main__')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('/Users/jonathan...')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(79): Twig_Loader_Filesystem->__construct('/Users/jonathan...')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Modules/Admin/V...', Array, 'twig')
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::render('Modules/Admin/V...', Array)
+#5 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#11 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:50PM
+
+           Message: The "/Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Views" directory does not exist.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('/Users/jonathan...', '__main__')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('/Users/jonathan...')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(60): Twig_Loader_Filesystem->__construct('/Users/jonathan...')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#4 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#10 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:50PM
+
+           Message: The "/Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Views" directory does not exist.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('/Users/jonathan...', '__main__')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('/Users/jonathan...')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(60): Twig_Loader_Filesystem->__construct('/Users/jonathan...')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#4 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#10 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:50PM
+
+           Message: The "/Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Views" directory does not exist.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('/Users/jonathan...', '__main__')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('/Users/jonathan...')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(60): Twig_Loader_Filesystem->__construct('/Users/jonathan...')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#4 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#10 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:50PM
+
+           Message: The "/Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Views" directory does not exist.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('/Users/jonathan...', '__main__')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('/Users/jonathan...')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(60): Twig_Loader_Filesystem->__construct('/Users/jonathan...')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#4 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#10 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:50PM
+
+           Message: The "/Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Views" directory does not exist.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('/Users/jonathan...', '__main__')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('/Users/jonathan...')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(60): Twig_Loader_Filesystem->__construct('/Users/jonathan...')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#4 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#10 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:50PM
+
+           Message: The "/Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Views" directory does not exist.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('/Users/jonathan...', '__main__')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('/Users/jonathan...')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(60): Twig_Loader_Filesystem->__construct('/Users/jonathan...')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#4 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#10 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:51PM
+
+           Message: Unable to find template "categories.twig" (looked into: /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Views).
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('categories.twig')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('categories.twig')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('categories.twig', NULL)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('categories.twig')
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#6 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#12 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:51PM
+
+           Message: Unable to find template "categories.twig" (looked into: /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Views).
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('categories.twig')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('categories.twig')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('categories.twig', NULL)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('categories.twig')
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#6 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#12 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:51PM
+
+           Message: Unable to find template "categories.twig" (looked into: /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Views).
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 215
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('categories.twig')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(312): Twig_Loader_Filesystem->getCacheKey('categories.twig')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(378): Twig_Environment->getTemplateClass('categories.twig', NULL)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('categories.twig')
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#6 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#12 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:51PM
+
+           Message: Variable "data" does not exist in "categories.twig" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(19): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_e10f084486d3f1dd365fe7eae136bbe3ab32ba2e2c0d8fa80c945229057ab04c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:51PM
+
+           Message: Variable "data" does not exist in "categories.twig" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a6/a656ef7449254fc74b638e579be24249336e3058a22a47f7d56d7e08dedc66da.php(19): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_e10f084486d3f1dd365fe7eae136bbe3ab32ba2e2c0d8fa80c945229057ab04c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:51PM
+
+           Message: Variable "data" does not exist in "categories.twig" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a6/a656ef7449254fc74b638e579be24249336e3058a22a47f7d56d7e08dedc66da.php(19): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_e10f084486d3f1dd365fe7eae136bbe3ab32ba2e2c0d8fa80c945229057ab04c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:51PM
+
+           Message: Variable "data" does not exist in "categories.twig" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a6/a656ef7449254fc74b638e579be24249336e3058a22a47f7d56d7e08dedc66da.php(19): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_e10f084486d3f1dd365fe7eae136bbe3ab32ba2e2c0d8fa80c945229057ab04c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:51PM
+
+           Message: Variable "data" does not exist in "categories.twig" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a6/a656ef7449254fc74b638e579be24249336e3058a22a47f7d56d7e08dedc66da.php(19): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_e10f084486d3f1dd365fe7eae136bbe3ab32ba2e2c0d8fa80c945229057ab04c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:51PM
+
+           Message: Variable "data" does not exist in "categories.twig" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a6/a656ef7449254fc74b638e579be24249336e3058a22a47f7d56d7e08dedc66da.php(19): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_e10f084486d3f1dd365fe7eae136bbe3ab32ba2e2c0d8fa80c945229057ab04c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:51PM
+
+           Message: Variable "data" does not exist in "categories.twig" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a6/a656ef7449254fc74b638e579be24249336e3058a22a47f7d56d7e08dedc66da.php(19): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_e10f084486d3f1dd365fe7eae136bbe3ab32ba2e2c0d8fa80c945229057ab04c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:51PM
+
+           Message: Variable "data" does not exist in "categories.twig" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a6/a656ef7449254fc74b638e579be24249336e3058a22a47f7d56d7e08dedc66da.php(19): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_e10f084486d3f1dd365fe7eae136bbe3ab32ba2e2c0d8fa80c945229057ab04c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:51PM
+
+           Message: Variable "data" does not exist in "categories.twig" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a6/a656ef7449254fc74b638e579be24249336e3058a22a47f7d56d7e08dedc66da.php(19): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_e10f084486d3f1dd365fe7eae136bbe3ab32ba2e2c0d8fa80c945229057ab04c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:51PM
+
+           Message: Variable "data" does not exist in "categories.twig" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a6/a656ef7449254fc74b638e579be24249336e3058a22a47f7d56d7e08dedc66da.php(19): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_e10f084486d3f1dd365fe7eae136bbe3ab32ba2e2c0d8fa80c945229057ab04c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:51PM
+
+           Message: Variable "data" does not exist in "categories.twig" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a6/a656ef7449254fc74b638e579be24249336e3058a22a47f7d56d7e08dedc66da.php(19): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_e10f084486d3f1dd365fe7eae136bbe3ab32ba2e2c0d8fa80c945229057ab04c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:51PM
+
+           Message: Unexpected character "$" in "categories.twig" at line 1.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Lexer.php
+
+           Line: 284
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Lexer.php(216): Twig_Lexer->lexExpression()
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Lexer.php(115): Twig_Lexer->lexVar()
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(577): Twig_Lexer->tokenize('{{ $data }}', 'categories.twig')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->tokenize('{{ $data }}', 'categories.twig')
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('{{ $data }}', 'categories.twig')
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('categories.twig')
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#8 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:51PM
+
+           Message: Variable "data" does not exist in "categories.twig" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(19): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_e10f084486d3f1dd365fe7eae136bbe3ab32ba2e2c0d8fa80c945229057ab04c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:51PM
+
+           Message: Variable "data" does not exist in "categories.twig" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a6/a656ef7449254fc74b638e579be24249336e3058a22a47f7d56d7e08dedc66da.php(19): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_e10f084486d3f1dd365fe7eae136bbe3ab32ba2e2c0d8fa80c945229057ab04c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+Exception information:
+
+           Date: Apr 19, 2016 18:52PM
+
+           Message: Variable "data" does not exist in "categories.twig" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a6/a656ef7449254fc74b638e579be24249336e3058a22a47f7d56d7e08dedc66da.php(19): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_e10f084486d3f1dd365fe7eae136bbe3ab32ba2e2c0d8fa80c945229057ab04c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.twig', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:52PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:53PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:53PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:53PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:53PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:53PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:53PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:53PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:53PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:53PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:53PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:53PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:53PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:53PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:53PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:53PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:53PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:53PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:53PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:53PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:53PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:53PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:53PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:53PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:53PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:53PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:53PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:53PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:53PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:53PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:53PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:53PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:53PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:53PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:53PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:53PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:53PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:53PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:53PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:53PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:53PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:53PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:53PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+Exception information:
+
+           Date: Apr 19, 2016 18:53PM
+
+           Message: Variable "data" does not exist in "categories.php" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(20): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_0fa7689b51961bd247f5598bca5ff63c7ab82467facdf487bf9fc628a7620fb1->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.php', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+2016-04-19 18:53PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:53PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:53PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:53PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:53PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:53PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:53PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+Exception information:
+
+           Date: Apr 19, 2016 18:53PM
+
+           Message: Variable "data" does not exist in "categories.php" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a7/a7960ff63e950adfedbb995b084d49d6aa691b1f5a733ca14f71133f29f275a9.php(20): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_0fa7689b51961bd247f5598bca5ff63c7ab82467facdf487bf9fc628a7620fb1->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.php', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+2016-04-19 18:54PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:54PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:54PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:54PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:54PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:54PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:54PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+Exception information:
+
+           Date: Apr 19, 2016 18:54PM
+
+           Message: Variable "data" does not exist in "categories.php" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a7/a7960ff63e950adfedbb995b084d49d6aa691b1f5a733ca14f71133f29f275a9.php(20): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_0fa7689b51961bd247f5598bca5ff63c7ab82467facdf487bf9fc628a7620fb1->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.php', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+2016-04-19 18:54PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:54PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:54PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:54PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:54PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:54PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:54PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+Exception information:
+
+           Date: Apr 19, 2016 18:54PM
+
+           Message: Variable "data" does not exist in "categories.php" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a7/a7960ff63e950adfedbb995b084d49d6aa691b1f5a733ca14f71133f29f275a9.php(20): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_0fa7689b51961bd247f5598bca5ff63c7ab82467facdf487bf9fc628a7620fb1->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.php', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+2016-04-19 18:54PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:54PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:54PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:54PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:54PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:54PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:54PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+Exception information:
+
+           Date: Apr 19, 2016 18:54PM
+
+           Message: Variable "data" does not exist in "categories.php" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a7/a7960ff63e950adfedbb995b084d49d6aa691b1f5a733ca14f71133f29f275a9.php(20): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_0fa7689b51961bd247f5598bca5ff63c7ab82467facdf487bf9fc628a7620fb1->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.php', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+2016-04-19 18:54PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:54PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:54PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:54PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:54PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:54PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:54PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+Exception information:
+
+           Date: Apr 19, 2016 18:54PM
+
+           Message: Variable "data" does not exist in "categories.php" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a7/a7960ff63e950adfedbb995b084d49d6aa691b1f5a733ca14f71133f29f275a9.php(20): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_0fa7689b51961bd247f5598bca5ff63c7ab82467facdf487bf9fc628a7620fb1->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.php', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+2016-04-19 18:54PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:54PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:54PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:54PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:54PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:54PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:54PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+Exception information:
+
+           Date: Apr 19, 2016 18:54PM
+
+           Message: Variable "data" does not exist in "categories.php" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a7/a7960ff63e950adfedbb995b084d49d6aa691b1f5a733ca14f71133f29f275a9.php(20): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_0fa7689b51961bd247f5598bca5ff63c7ab82467facdf487bf9fc628a7620fb1->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.php', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+2016-04-19 18:54PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:54PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:54PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:54PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:54PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:54PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:54PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+Exception information:
+
+           Date: Apr 19, 2016 18:54PM
+
+           Message: Variable "data" does not exist in "categories.php" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a7/a7960ff63e950adfedbb995b084d49d6aa691b1f5a733ca14f71133f29f275a9.php(20): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_0fa7689b51961bd247f5598bca5ff63c7ab82467facdf487bf9fc628a7620fb1->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.php', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:54PM
+
+           Message: Variable "data" does not exist in "categories.php" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a7/a7960ff63e950adfedbb995b084d49d6aa691b1f5a733ca14f71133f29f275a9.php(20): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_0fa7689b51961bd247f5598bca5ff63c7ab82467facdf487bf9fc628a7620fb1->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.php', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 18:54PM
+
+           Message: Variable "data" does not exist in "categories.php" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/a7/a7960ff63e950adfedbb995b084d49d6aa691b1f5a733ca14f71133f29f275a9.php(20): Twig_Template->getContext(Array, 'data')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_0fa7689b51961bd247f5598bca5ff63c7ab82467facdf487bf9fc628a7620fb1->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.php', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', Array)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+2016-04-19 18:55PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:55PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:55PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:55PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:55PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:55PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:55PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:55PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:55PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:55PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:55PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:55PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:55PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:55PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:55PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:55PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:55PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:55PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:55PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:55PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:55PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:55PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:55PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:55PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:55PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:55PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:55PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:55PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:55PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:55PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:55PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:55PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:55PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:55PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:55PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:55PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:55PM - Illegal string offset 'afterBody' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 94
+
+2016-04-19 18:55PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:55PM - Illegal string offset 'css' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 95
+
+2016-04-19 18:55PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:55PM - Illegal string offset 'js' in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 96
+
+2016-04-19 18:55PM - Invalid argument supplied for foreach() in /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/View.php on line 79
+
+2016-04-19 18:56PM - array_key_exists() expects parameter 2 to be array, null given in /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php on line 431
+
+Exception information:
+
+           Date: Apr 19, 2016 18:56PM
+
+           Message: Variable "categorie" does not exist in "categories.php" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(20): Twig_Template->getContext(NULL, 'categorie')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_0fa7689b51961bd247f5598bca5ff63c7ab82467facdf487bf9fc628a7620fb1->doDisplay(NULL, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(NULL, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(NULL)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(NULL)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(69): Twig_Environment->render('categories.php', NULL)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::generateRenderingModule('Admin/Views/cat...', NULL)
+#7 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+2016-04-19 19:00PM - array_key_exists() expects parameter 2 to be array, string given in /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php on line 431
+
+Exception information:
+
+           Date: Apr 19, 2016 19:00PM
+
+           Message: Variable "categorie" does not exist in "Welcome.php" at line 17
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(37): Twig_Template->getContext('data', 'categorie')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_964c680a7d2b87fe101657548df05f62cd60218e66fb6d27fee125603b12c32f->doDisplay('data', Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling('data', Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display('data')
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render('data')
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(88): Twig_Environment->render('Welcome.php', 'data')
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Controllers/Welcome.php(42): Helpers\Twig::generateRendering('Welcome/Welcome', 'data')
+#7 [internal function]: App\Controllers\Welcome->index()
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'index', Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#13 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 19:04PM
+
+           Message: The "/Users/jonathanleperu/Sites/WordPress-en-mieux/app/Views/Admin/Views" directory does not exist.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('/Users/jonathan...', '__main__')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('/Users/jonathan...')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(78): Twig_Loader_Filesystem->__construct('/Users/jonathan...')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Admin/Views/cat...', Array, 'php')
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::render('Admin/Views/cat...', Array)
+#5 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#11 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 19:04PM
+
+           Message: The "/Users/jonathanleperu/Sites/WordPress-en-mieux/app/Views/Admin/Views" directory does not exist.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('/Users/jonathan...', '__main__')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('/Users/jonathan...')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(78): Twig_Loader_Filesystem->__construct('/Users/jonathan...')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Admin/Views/cat...', Array, 'php')
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::render('Admin/Views/cat...', Array)
+#5 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#11 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 19:05PM
+
+           Message: The "/Users/jonathanleperu/Sites/WordPress-en-mieux/app/Views/Admin/Views" directory does not exist.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php
+
+           Line: 94
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(76): Twig_Loader_Filesystem->addPath('/Users/jonathan...', '__main__')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(34): Twig_Loader_Filesystem->setPaths('/Users/jonathan...')
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(78): Twig_Loader_Filesystem->__construct('/Users/jonathan...')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Admin/Views/cat...', Array, 'php')
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Modules/Admin/Admin.php(30): Helpers\Twig::render('Admin/Views/cat...', Array)
+#5 [internal function]: App\Modules\Admin\Admin->manageCategories()
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Modules\\Adm...', 'manageCategorie...', Array)
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Modules\\Adm...', Array)
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#11 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 19:16PM
+
+           Message: Variable "categorie" does not exist in "categories.php" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/b5/b59020274a062be81440b1c86d31e755b5a431b6308dac8589b4d2f9c552fda5.php(20): Twig_Template->getContext(Array, 'categorie')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_983e955b75ca6df5c409329d6750c3c4825a642cf00eee838c35ed8b1f2ba358->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(87): Twig_Environment->render('categories.php', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Admin/categorie...', Array, 'php')
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Controllers/Admin.php(35): Helpers\Twig::render('Admin/categorie...', Array)
+#8 [internal function]: App\Controllers\Admin->manageCategories()
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'manageCategorie...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 19:18PM
+
+           Message: Variable "categories" does not exist in "categories.php" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(20): Twig_Template->getContext(Array, 'categories')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_983e955b75ca6df5c409329d6750c3c4825a642cf00eee838c35ed8b1f2ba358->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(87): Twig_Environment->render('categories.php', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Admin/categorie...', Array, 'php')
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Controllers/Admin.php(35): Helpers\Twig::render('Admin/categorie...', Array)
+#8 [internal function]: App\Controllers\Admin->manageCategories()
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'manageCategorie...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 19:18PM
+
+           Message: Unexpected character "$" in "categories.php" at line 1.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Lexer.php
+
+           Line: 284
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Lexer.php(205): Twig_Lexer->lexExpression()
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Lexer.php(111): Twig_Lexer->lexBlock()
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(577): Twig_Lexer->tokenize('{% for c in $ca...', 'categories.php')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->tokenize('{% for c in $ca...', 'categories.php')
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('{% for c in $ca...', 'categories.php')
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('categories.php')
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(87): Twig_Environment->render('categories.php', Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Admin/categorie...', Array, 'php')
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Controllers/Admin.php(35): Helpers\Twig::render('Admin/categorie...', Array)
+#9 [internal function]: App\Controllers\Admin->manageCategories()
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'manageCategorie...', Array)
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#13 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#14 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#15 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 19:18PM
+
+           Message: Unexpected character "$" in "categories.php" at line 1.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Lexer.php
+
+           Line: 284
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Lexer.php(205): Twig_Lexer->lexExpression()
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Lexer.php(111): Twig_Lexer->lexBlock()
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(577): Twig_Lexer->tokenize('{% for c in $ca...', 'categories.php')
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->tokenize('{% for c in $ca...', 'categories.php')
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('{% for c in $ca...', 'categories.php')
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('categories.php')
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(87): Twig_Environment->render('categories.php', Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Admin/categorie...', Array, 'php')
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Controllers/Admin.php(35): Helpers\Twig::render('Admin/categorie...', Array)
+#9 [internal function]: App\Controllers\Admin->manageCategories()
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'manageCategorie...', Array)
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#13 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#14 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#15 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 19:20PM
+
+           Message: Variable "categories" does not exist in "categories.php" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(20): Twig_Template->getContext(Array, 'categories')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_983e955b75ca6df5c409329d6750c3c4825a642cf00eee838c35ed8b1f2ba358->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(87): Twig_Environment->render('categories.php', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Admin/categorie...', Array, 'php')
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Controllers/Admin.php(38): Helpers\Twig::render('Admin/categorie...', Array)
+#8 [internal function]: App\Controllers\Admin->manageCategories()
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'manageCategorie...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 19:20PM
+
+           Message: Variable "categories" does not exist in "categories.php" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/b5/b59020274a062be81440b1c86d31e755b5a431b6308dac8589b4d2f9c552fda5.php(20): Twig_Template->getContext(Array, 'categories')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_983e955b75ca6df5c409329d6750c3c4825a642cf00eee838c35ed8b1f2ba358->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(87): Twig_Environment->render('categories.php', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Admin/categorie...', Array, 'php')
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Controllers/Admin.php(38): Helpers\Twig::render('Admin/categorie...', Array)
+#8 [internal function]: App\Controllers\Admin->manageCategories()
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'manageCategorie...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 19:20PM
+
+           Message: Variable "categories" does not exist in "categories.php" at line 1
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/cache/b5/b59020274a062be81440b1c86d31e755b5a431b6308dac8589b4d2f9c552fda5.php(20): Twig_Template->getContext(Array, 'categories')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_983e955b75ca6df5c409329d6750c3c4825a642cf00eee838c35ed8b1f2ba358->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(87): Twig_Environment->render('categories.php', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Admin/categorie...', Array, 'php')
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Controllers/Admin.php(38): Helpers\Twig::render('Admin/categorie...', Array)
+#8 [internal function]: App\Controllers\Admin->manageCategories()
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'manageCategorie...', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(49): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 19:35PM
+
+           Message: Unexpected token "name" of value "article" ("end of print statement" expected) in "articles.php" at line 10.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/TokenStream.php
+
+           Line: 87
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Parser.php(145): Twig_TokenStream->expect(4)
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Parser.php(100): Twig_Parser->subparse(NULL, false)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(615): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('<table class="t...', 'articles.php')
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('articles.php')
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(87): Twig_Environment->render('articles.php', Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Admin/articles', Array, 'php')
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Controllers/Admin.php(57): Helpers\Twig::render('Admin/articles', Array)
+#9 [internal function]: App\Controllers\Admin->manageArticles()
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'manageArticles', Array)
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#13 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(50): Core\Router->dispatch()
+#14 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#15 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 19:35PM
+
+           Message: Unexpected token "name" of value "article" ("end of print statement" expected) in "articles.php" at line 10.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/TokenStream.php
+
+           Line: 87
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Parser.php(145): Twig_TokenStream->expect(4)
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Parser.php(100): Twig_Parser->subparse(NULL, false)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(615): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('<table class="t...', 'articles.php')
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('articles.php')
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(87): Twig_Environment->render('articles.php', Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Admin/articles', Array, 'php')
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Controllers/Admin.php(57): Helpers\Twig::render('Admin/articles', Array)
+#9 [internal function]: App\Controllers\Admin->manageArticles()
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'manageArticles', Array)
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#13 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(50): Core\Router->dispatch()
+#14 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#15 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 19:35PM
+
+           Message: Unexpected token "name" of value "article" ("end of print statement" expected) in "articles.php" at line 10.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/TokenStream.php
+
+           Line: 87
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Parser.php(145): Twig_TokenStream->expect(4)
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Parser.php(100): Twig_Parser->subparse(NULL, false)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(615): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('<table class="t...', 'articles.php')
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('articles.php')
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(87): Twig_Environment->render('articles.php', Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Admin/articles', Array, 'php')
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Controllers/Admin.php(57): Helpers\Twig::render('Admin/articles', Array)
+#9 [internal function]: App\Controllers\Admin->manageArticles()
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'manageArticles', Array)
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#13 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(50): Core\Router->dispatch()
+#14 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#15 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 19:36PM
+
+           Message: Unexpected token "name" of value "article" ("end of print statement" expected) in "articles.php" at line 10.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/TokenStream.php
+
+           Line: 87
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Parser.php(145): Twig_TokenStream->expect(4)
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Parser.php(100): Twig_Parser->subparse(NULL, false)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(615): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('<table class="t...', 'articles.php')
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('articles.php')
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(87): Twig_Environment->render('articles.php', Array)
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Admin/articles', Array, 'php')
+#8 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Controllers/Admin.php(57): Helpers\Twig::render('Admin/articles', Array)
+#9 [internal function]: App\Controllers\Admin->manageArticles()
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'manageArticles', Array)
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#13 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(50): Core\Router->dispatch()
+#14 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#15 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 19:39PM
+
+           Message: Variable "users" does not exist in "articles.php" at line 20
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(58): Twig_Template->getContext(Array, 'users')
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_c61a04e4789e911843d2c3542f9a2a83a095f326d39ab7cc081d645aeadb524b->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(87): Twig_Environment->render('articles.php', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Admin/articles', Array, 'php')
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Controllers/Admin.php(57): Helpers\Twig::render('Admin/articles', Array)
+#8 [internal function]: App\Controllers\Admin->manageArticles()
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'manageArticles', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(50): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 19, 2016 19:41PM
+
+           Message: Neither the property "idCategorie" nor one of the methods "idCategorie()", "getidCategorie()"/"isidCategorie()" or "__call()" exist and have public access in class "App\Models\Tables\Categorie" in "articles.php" at line 28
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 584
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(85): Twig_Template->getAttribute(Object(App\Models\Tables\Categorie), 'idCategorie', Array)
+#1 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_c61a04e4789e911843d2c3542f9a2a83a095f326d39ab7cc081d645aeadb524b->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/WordPress-en-mieux/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(87): Twig_Environment->render('articles.php', Array)
+#6 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Admin/articles', Array, 'php')
+#7 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Controllers/Admin.php(57): Helpers\Twig::render('Admin/articles', Array)
+#8 [internal function]: App\Controllers\Admin->manageArticles()
+#9 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'manageArticles', Array)
+#11 /Users/jonathanleperu/Sites/WordPress-en-mieux/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/WordPress-en-mieux/app/Routes.php(50): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/WordPress-en-mieux/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
