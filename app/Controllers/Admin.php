@@ -44,6 +44,7 @@ class Admin extends Controller
         $categories = $categoriesSQL->prepareFindAll()->execute();
         $data['categories'] = $categories;
 
+        $data['siteurl'] = SITEURL;
 
         View::rendertemplate('header', $data);
         Twig::render('Admin/categories', $data);
@@ -68,6 +69,8 @@ class Admin extends Controller
         $articles = $articleSQL->prepareFindAll()->execute();
         $data['articles'] = $articles;
 
+        $data['siteurl'] = SITEURL;
+
         View::rendertemplate('header', $data);
         Twig::render('Admin/articles', $data);
         View::rendertemplate('footer', $data);
@@ -82,6 +85,8 @@ class Admin extends Controller
         $userSQL = new UserSQL();
         $users = $userSQL->prepareFindAll()->execute();
         $data['users'] = $users;
+
+        $data['siteurl'] = SITEURL;
 
         View::rendertemplate('header', $data);
         Twig::render('Admin/users', $data);
@@ -116,9 +121,24 @@ class Admin extends Controller
 
         if(isset($_POST['ajouter'])){
 
-            // URL A FAIRE
+            $extensions_valides = array( 'jpg' , 'jpeg' , 'gif' , 'png' );
+            $extension_upload = strtolower(  substr(  strrchr($_FILES['image']['name'], '.')  ,1)  );
 
-            $table_article = new Article(Session::get('id'),$_POST['categorie'],$_POST['titre'],$_POST['contenu'],"",date("Y-m-d"));
+            if ( !in_array($extension_upload,$extensions_valides) ){
+                Session::set('message',"Mauvaise extension de l'image");
+                Url::redirect('admin/articles');
+            }
+
+            $nom = md5(uniqid(rand(), true));
+
+            $chemin = "images/".$nom.".".$extension_upload;
+
+            $resultat = move_uploaded_file($_FILES['icone']['tmp_name'],$chemin);
+            if (!$resultat){
+                Session::set('message',"Probleme lors de l'envoie du fichier");
+            }
+
+            $table_article = new Article(Session::get('id'),$_POST['categorie'],$_POST['titre'],$_POST['contenu'],$chemin,date("Y-m-d"));
             EntityManager::getInstance()->save($table_article);
             Session::set("message","Article ajouter");
             Url::redirect('admin/articles');
@@ -160,11 +180,16 @@ class Admin extends Controller
 
     function deleteCategorie($id){
 
-
-
     }
 
     function deleteArticle($id){
 
+        $articleSQL = new ArticleSQL();
+        $article = $articleSQL->prepareFindWithCondition("id_article = :ida",array(':ida'=>$id))->execute();
+
+        echo "<pre>";
+        var_dump($article);
+        echo "</pre>";
+        die();
     }
 }

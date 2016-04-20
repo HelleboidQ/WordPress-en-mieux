@@ -11,6 +11,7 @@
     ]);
     echo $css; //place to pass data / plugable hook zone
     ?>
+    <script src="//cdn.ckeditor.com/4.5.8/standard/ckeditor.js"></script>
 </head>
 <body>
 <?php echo $afterBody; //place to pass data / plugable hook zone?>
@@ -76,4 +77,8 @@
 </nav>
 <div class="container">
 
+    <?= ((Session::get('message') != "") ? '<div class="alert alert-info" role="alert">' . (Session::get('message')) . '</div>' : "") ?>
+    <?php Session::set('message', ""); ?>
+
     <p><img src='<?= Url::templatePath(); ?>images/nova.png' alt='<?= SITETITLE; ?>'></p>
+

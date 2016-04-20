@@ -15,7 +15,7 @@
         <td>{{ user.login }}</td>
         <td>{{ user.email }}</td>
         <td>{{ user.admin }}</td>
-        <td>ACTION</td>
+        <td><a class="btn btn-danger" href="{{ siteurl }}admin/deleteUser/{{ user.id }}">SUPPRIMER</a></td>
     </tr>
     {% endfor %}
     </tbody>
