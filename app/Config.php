@@ -86,7 +86,11 @@ class Config
         /**
          * Database password.
          */
+<<<<<<< HEAD
         define('DB_PASS', 'root');
+=======
+        define('DB_PASS', 'gvwgz4v');
+>>>>>>> master
 
         /**
          * PREFER to be used in database calls default is smvc_
