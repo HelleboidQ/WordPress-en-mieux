@@ -33,7 +33,8 @@ class Categories extends Controller {
         View::rendertemplate('footer', $data);
     }
 
-    /* public function detailCategorie($id,$titre) {
+    public function detailCategorie($id) {
+        
+    }
 
-      } */
 }

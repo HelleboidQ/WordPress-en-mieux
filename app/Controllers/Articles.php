@@ -36,7 +36,15 @@ class Articles extends Controller {
         View::rendertemplate('footer', $data);
     }
 
-    /* public function detailArticle($id,$titre) {
+    public function detailArticle($id) {
+        $articleSQL = new ArticleSQL();
+        $article = $articleSQL->findById($id);
+        $data['article'] = $article;
+        $data['url'] = SITEURL;
 
-      } */
+        View::rendertemplate('header', $data);
+        Twig::render('Article/detail', $data);
+        View::rendertemplate('footer', $data);
+    }
+
 }

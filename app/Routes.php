@@ -33,10 +33,12 @@ Router::any('/admin/users', 'App\Controllers\Admin@manageUsers');
 
 //Articles Routing
 Router::any('/article', 'App\Controllers\Articles@getArticles');
-//Router::any('/article/(:id)/(:any)', 'App\Controllers\Article@detailArticle');
+Router::any('/article/(:num)', 'App\Controllers\Articles@detailArticle');
+
 //Categorie Routing
 Router::any('/categorie', 'App\Controllers\Categories@getCategorie');
-//Router::any('/categorie/(:id)/(:any)', 'App\Controllers\Categorie@detailCategorie');
+Router::any('/categorie/(:num)', 'App\Controllers\Categories@detailCategorie');
+
 // ORM Generator/
 if ($_SERVER["SERVER_NAME"] == "localhost") {
     Router::any("generateorm", 'App\Modules\ORM\ORMGenerator@index');
