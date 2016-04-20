@@ -18,7 +18,8 @@
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -31,7 +32,8 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">Accueil <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">News</a></li> 
+                        <li><a href="<?= SITEURL ?>article">Article</a></li>
+                        <li><a href="<?= SITEURL ?>categorie">Catégorie</a></li>
                     </ul>
                     <form class="navbar-form navbar-left" role="search">
                         <div class="form-group">
@@ -47,17 +49,20 @@
                         <?php } ?>
                         <?php if (Session::get('admin') == 1 && Session::get('loggedin') == 1) { ?>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin <span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                   aria-expanded="false">Admin <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Utilisateur</a></li>
-                                    <li><a href="#">News</a></li> 
+                                    <li><a href="<?= SITEURL ?>admin/users">Gestion des utilisateurs</a></li>
+                                    <li><a href="<?= SITEURL ?>admin/categories">Gestion des catÃ©gories</a></li>
+                                    <li><a href="<?= SITEURL ?>admin/articles">Gestion des articles</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="<?= SITEURL ?>utilisateur/logout">Logout</a></li>
                                 </ul>
                             </li>
                         <?php } else if (Session::get('loggedin') == 1) { ?>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profil <span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                   aria-expanded="false">Profil <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="<?= SITEURL ?>utilisateur/modification">Modifier profil</a></li>
                                     <li role="separator" class="divider"></li>
