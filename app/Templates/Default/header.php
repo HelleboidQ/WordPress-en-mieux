@@ -28,19 +28,19 @@
             <a class="navbar-brand" href="<?= SITEURL ?>"><?= SITETITLE ?></a>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="<?= SITEURL ?>">Accueil <span class="sr-only">(current)</span></a></li>
-                <li><a href="<?= SITEURL ?>article">Article</a></li>
-                <li><a href="<?= SITEURL ?>categorie">Cat�gorie</a></li>
-            </ul>
-            <form class="navbar-form navbar-left" role="search">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Rechercher...">
-                </div>
-                <button type="submit" class="btn btn-default">Rechercher</button>
-            </form>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="<?= SITEURL ?>">Accueil <span class="sr-only">(current)</span></a></li>
+                        <li><a href="<?= SITEURL ?>article">Article</a></li>
+                        <li><a href="<?= SITEURL ?>categorie">Cat�gorie</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Rechercher...">
+                        </div>
+                        <button type="submit" class="btn btn-default">Rechercher</button>
+                    </form>
 
             <ul class="nav navbar-nav navbar-right">
                 <?php if (Session::get('loggedin') != 1) { ?>
