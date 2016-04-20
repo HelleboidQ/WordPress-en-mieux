@@ -25,8 +25,11 @@ class Articles extends Controller {
 
     public function getArticles() {
         $articleSQL = new ArticleSQL();
-        $article = $articleSQL->prepareFindAll()->execute();
+        $article = $articleSQL->prepareFindAll()->orderBy("id desc")->limit(0, 10)->execute();
         $data['articles'] = $article;
+        $data['url'] = SITEURL;
+
+        //$pdo = \Helpers\DB\DBManager::getInstance()->getPDO();
 
         View::rendertemplate('header', $data);
         Twig::render('Article/index', $data);
