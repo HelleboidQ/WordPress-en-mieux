@@ -13,21 +13,21 @@ namespace App\Models\Tables;
 use Helpers\DB\Entity;
 
 class Commentaire extends Entity {
-    public $idArticle;     // int(11)
-    public $idUser;     // int(11)
+    public $id_article;     // int(11)
+    public $id_user;     // int(11)
     public $contenu;     // text
     public $date;     // datetime
 
     public function __construct(
-        $idArticle = "",
-        $idUser = "",
+        $id_article = "",
+        $id_user = "",
         $contenu = "",
         $date = "",
     $id = false) {
         parent::__construct($id);
 
-        $this->idArticle = $idArticle;
-        $this->idUser = $idUser;
+        $this->idArticle = $id_article;
+        $this->idUser = $id_user;
         $this->contenu = $contenu;
         $this->date = $date;
     }
