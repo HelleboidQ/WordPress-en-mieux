@@ -16,8 +16,8 @@ use Helpers\DB\Entity;
 
 class Article extends Entity {
 
-    public $idUser;     // int(11)
-    public $idCategorie;     // int(11)
+    public $id_user;     // int(11)
+    public $id_categorie;     // int(11)
     public $titre;     // varchar(80)
     public $contenu;     // text
     public $image;     // varchar(255)
@@ -26,11 +26,11 @@ class Article extends Entity {
     private $categorie;
 
     public function __construct(
-    $idUser = "", $idCategorie = "", $titre = "", $contenu = "", $image = "", $date = "", $id = false) {
+    $id_user = "", $id_categorie = "", $titre = "", $contenu = "", $image = "", $date = "", $id = false) {
         parent::__construct($id);
 
-        $this->idUser = $idUser;
-        $this->idCategorie = $idCategorie;
+        $this->idUser = $id_user;
+        $this->idCategorie = $id_categorie;
         $this->titre = $titre;
         $this->contenu = $contenu;
         $this->image = $image;
@@ -40,19 +40,19 @@ class Article extends Entity {
     }
 
     public function getUser() {
-        if ($this->user == null || $this->idUser != $user->getId()) {
+        if ($this->user == null || $this->id_user != $user->getId()) {
             // Il faut récupérer le nouveau
             $uSQL = new UserSQL(); // Les requêtes pour récupérer une personne
-            $this->user = $uSQL->findById($this->idUser);
+            $this->user = $uSQL->findById($this->id_user);
         }
         return $this->user;
     }
 
     public function getCategorie() {
-        if ($this->categorie == null || $this->idCategorie != $categorie->getId() ) {
+        if ($this->categorie == null || $this->id_categorie != $categorie->getId() ) {
             // Il faut récupérer le nouveau
             $cSQL = new CategorieSQL(); // Les requêtes pour récupérer une personne
-            $this->categorie = $cSQL->findById($this->idCategorie);
+            $this->categorie = $cSQL->findById($this->id_categorie);
         }
         return $this->categorie;
     }

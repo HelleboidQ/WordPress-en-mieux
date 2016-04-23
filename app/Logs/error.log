@@ -2500,3 +2500,607 @@ Exception information:
 
            ---------
 
+Exception information:
+
+           Date: Apr 23, 2016 12:43PM
+
+           Message: Impossible to access an attribute ("login") on a boolean variable ("") in "index.php" at line 4
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 503
+
+           Stack trace:
+
+           #0 /var/www/basenova/cache/77/777a0c0c5b277017bef4b95ba866492843a6b6a91b18c053b4d1e089f7c6d808.php(33): Twig_Template->getAttribute(false, 'login', Array)
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_6623be21f0b4c4b6e2dd93819ddecff8a3de31be671d893b2a4197e78ae18abd->doDisplay(Array, Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('index.php', Array)
+#6 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/index', Array, 'php')
+#7 /var/www/basenova/app/Controllers/Articles.php(35): Helpers\Twig::render('Article/index', Array)
+#8 [internal function]: App\Controllers\Articles->getArticles()
+#9 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'getArticles', Array)
+#11 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#13 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:20PM
+
+           Message: Variable "url" does not exist in "index.php" at line 5
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(33): Twig_Template->getContext(Array, 'url')
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_08cddc851551861f6f3d8f62561ce97d6b7457d8c8ce151835f57956d07bb1c5->doDisplay(Array, Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('index.php', Array)
+#6 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/index', Array, 'php')
+#7 /var/www/basenova/app/Controllers/Categories.php(32): Helpers\Twig::render('Categorie/index', Array)
+#8 [internal function]: App\Controllers\Categories->getCategorie()
+#9 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'getCategorie', Array)
+#11 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#13 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:21PM
+
+           Message: An exception has been thrown during the rendering of a template ("function titre unknown in class App\Models\Queries\ArticleSQL") in "detail.php" at line 2.
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 396
+
+           Stack trace:
+
+           #0 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#3 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#4 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/detai...', Array, 'php')
+#5 /var/www/basenova/app/Controllers/Categories.php(47): Helpers\Twig::render('Categorie/detai...', Array)
+#6 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#7 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#8 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#9 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#10 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#11 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#12 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:44PM
+
+           Message: An exception has been thrown during the rendering of a template ("function titre unknown in class App\Models\Queries\ArticleSQL") in "detail.php" at line 2.
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 396
+
+           Stack trace:
+
+           #0 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#3 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#4 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/detai...', Array, 'php')
+#5 /var/www/basenova/app/Controllers/Categories.php(47): Helpers\Twig::render('Categorie/detai...', Array)
+#6 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#7 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#8 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#9 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#10 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#11 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#12 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:44PM
+
+           Message: An exception has been thrown during the rendering of a template ("function titre unknown in class App\Models\Queries\ArticleSQL") in "detail.php" at line 2.
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 396
+
+           Stack trace:
+
+           #0 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#3 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#4 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/detai...', Array, 'php')
+#5 /var/www/basenova/app/Controllers/Categories.php(47): Helpers\Twig::render('Categorie/detai...', Array)
+#6 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#7 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#8 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#9 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#10 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#11 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#12 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:45PM
+
+           Message: An exception has been thrown during the rendering of a template ("function titre unknown in class App\Models\Queries\ArticleSQL") in "detail.php" at line 5.
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 396
+
+           Stack trace:
+
+           #0 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#3 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#4 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/detai...', Array, 'php')
+#5 /var/www/basenova/app/Controllers/Categories.php(47): Helpers\Twig::render('Categorie/detai...', Array)
+#6 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#7 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#8 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#9 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#10 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#11 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#12 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:45PM
+
+           Message: An exception has been thrown during the rendering of a template ("function titre unknown in class App\Models\Queries\ArticleSQL") in "detail.php" at line 2.
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 396
+
+           Stack trace:
+
+           #0 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#3 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#4 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/detai...', Array, 'php')
+#5 /var/www/basenova/app/Controllers/Categories.php(47): Helpers\Twig::render('Categorie/detai...', Array)
+#6 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#7 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#8 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#9 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#10 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#11 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#12 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:46PM
+
+           Message: An exception has been thrown during the rendering of a template ("function date unknown in class App\Models\Queries\ArticleSQL") in "detail.php" at line 2.
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 396
+
+           Stack trace:
+
+           #0 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#3 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#4 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/detai...', Array, 'php')
+#5 /var/www/basenova/app/Controllers/Categories.php(47): Helpers\Twig::render('Categorie/detai...', Array)
+#6 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#7 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#8 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#9 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#10 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#11 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#12 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:46PM
+
+           Message: An exception has been thrown during the rendering of a template ("function date unknown in class App\Models\Queries\ArticleSQL") in "detail.php" at line 2.
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 396
+
+           Stack trace:
+
+           #0 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#3 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#4 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/detai...', Array, 'php')
+#5 /var/www/basenova/app/Controllers/Categories.php(47): Helpers\Twig::render('Categorie/detai...', Array)
+#6 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#7 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#8 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#9 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#10 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#11 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#12 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:46PM
+
+           Message: An exception has been thrown during the rendering of a template ("function titre unknown in class App\Models\Queries\ArticleSQL") in "detail.php" at line 2.
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 396
+
+           Stack trace:
+
+           #0 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#3 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#4 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/detai...', Array, 'php')
+#5 /var/www/basenova/app/Controllers/Categories.php(47): Helpers\Twig::render('Categorie/detai...', Array)
+#6 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#7 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#8 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#9 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#10 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#11 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#12 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:46PM
+
+           Message: An exception has been thrown during the rendering of a template ("function titre unknown in class App\Models\Queries\ArticleSQL") in "detail.php" at line 2.
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 396
+
+           Stack trace:
+
+           #0 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#3 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#4 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/detai...', Array, 'php')
+#5 /var/www/basenova/app/Controllers/Categories.php(48): Helpers\Twig::render('Categorie/detai...', Array)
+#6 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#7 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#8 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#9 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#10 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#11 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#12 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:47PM
+
+           Message: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens SELECT * FROM article WHERE id_categorie = :idc
+
+           Code: 0
+
+           File: /var/www/basenova/system/Helpers/DB/DBManager.php
+
+           Line: 59
+
+           Stack trace:
+
+           #0 /var/www/basenova/system/Helpers/DB/Query.php(62): Helpers\DB\DBManager->execute(Array)
+#1 /var/www/basenova/app/Controllers/Categories.php(41): Helpers\DB\Query->execute()
+#2 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#3 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#4 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#5 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#6 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#7 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#8 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:47PM
+
+           Message: An exception has been thrown during the rendering of a template ("function titre unknown in class App\Models\Queries\ArticleSQL") in "detail.php" at line 2.
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 396
+
+           Stack trace:
+
+           #0 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#3 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#4 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/detai...', Array, 'php')
+#5 /var/www/basenova/app/Controllers/Categories.php(48): Helpers\Twig::render('Categorie/detai...', Array)
+#6 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#7 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#8 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#9 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#10 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#11 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#12 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:47PM
+
+           Message: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens SELECT * FROM article WHERE id_categorie = :idc
+
+           Code: 0
+
+           File: /var/www/basenova/system/Helpers/DB/DBManager.php
+
+           Line: 59
+
+           Stack trace:
+
+           #0 /var/www/basenova/system/Helpers/DB/Query.php(62): Helpers\DB\DBManager->execute(Array)
+#1 /var/www/basenova/app/Controllers/Categories.php(41): Helpers\DB\Query->execute()
+#2 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#3 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#4 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#5 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#6 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#7 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#8 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:48PM
+
+           Message: An exception has been thrown during the rendering of a template ("function titre unknown in class App\Models\Queries\ArticleSQL") in "detail.php" at line 2.
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 396
+
+           Stack trace:
+
+           #0 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#3 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#4 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/detai...', Array, 'php')
+#5 /var/www/basenova/app/Controllers/Categories.php(48): Helpers\Twig::render('Categorie/detai...', Array)
+#6 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#7 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#8 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#9 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#10 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#11 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#12 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:48PM
+
+           Message: An exception has been thrown during the rendering of a template ("function titre unknown in class App\Models\Queries\ArticleSQL") in "detail.php" at line 2.
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 396
+
+           Stack trace:
+
+           #0 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#3 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#4 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/detai...', Array, 'php')
+#5 /var/www/basenova/app/Controllers/Categories.php(48): Helpers\Twig::render('Categorie/detai...', Array)
+#6 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#7 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#8 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#9 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#10 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#11 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#12 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:48PM
+
+           Message: Key "titre" for array with keys "0" does not exist in "detail.php" at line 2
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 503
+
+           Stack trace:
+
+           #0 /var/www/basenova/cache/35/352c97a37f93df4aad7b6acce584a2b3406424c71f0916214bebb006009ca58b.php(22): Twig_Template->getAttribute(Array, 'titre', Array)
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_97b9eca4541a25ff5f62496bc5286933286de99a06fce9f22c1a11b46a4786ba->doDisplay(Array, Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/detai...', Array, 'php')
+#7 /var/www/basenova/app/Controllers/Categories.php(48): Helpers\Twig::render('Categorie/detai...', Array)
+#8 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#9 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#11 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#13 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:49PM
+
+           Message: Key "titre" for array with keys "0" does not exist in "detail.php" at line 2
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 503
+
+           Stack trace:
+
+           #0 /var/www/basenova/cache/35/352c97a37f93df4aad7b6acce584a2b3406424c71f0916214bebb006009ca58b.php(22): Twig_Template->getAttribute(Array, 'titre', Array)
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_97b9eca4541a25ff5f62496bc5286933286de99a06fce9f22c1a11b46a4786ba->doDisplay(Array, Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/detai...', Array, 'php')
+#7 /var/www/basenova/app/Controllers/Categories.php(46): Helpers\Twig::render('Categorie/detai...', Array)
+#8 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#9 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#11 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#13 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:49PM
+
+           Message: Key "titre" for array with keys "0" does not exist in "detail.php" at line 2
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 503
+
+           Stack trace:
+
+           #0 /var/www/basenova/cache/35/352c97a37f93df4aad7b6acce584a2b3406424c71f0916214bebb006009ca58b.php(22): Twig_Template->getAttribute(Array, 'titre', Array)
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_97b9eca4541a25ff5f62496bc5286933286de99a06fce9f22c1a11b46a4786ba->doDisplay(Array, Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/detai...', Array, 'php')
+#7 /var/www/basenova/app/Controllers/Categories.php(48): Helpers\Twig::render('Categorie/detai...', Array)
+#8 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#9 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#11 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#13 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 23, 2016 13:49PM
+
+           Message: Key "titre" for array with keys "0" does not exist in "detail.php" at line 2
+
+           Code: 0
+
+           File: /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 503
+
+           Stack trace:
+
+           #0 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(22): Twig_Template->getAttribute(Array, 'titre', Array)
+#1 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_97b9eca4541a25ff5f62496bc5286933286de99a06fce9f22c1a11b46a4786ba->doDisplay(Array, Array)
+#2 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /var/www/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /var/www/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /var/www/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /var/www/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/detai...', Array, 'php')
+#7 /var/www/basenova/app/Controllers/Categories.php(46): Helpers\Twig::render('Categorie/detai...', Array)
+#8 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#9 /var/www/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /var/www/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#11 /var/www/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /var/www/basenova/app/Routes.php(57): Core\Router->dispatch()
+#13 /var/www/basenova/index.php(73): require('/var/www/baseno...')
+#14 {main}
+
+           ---------
+

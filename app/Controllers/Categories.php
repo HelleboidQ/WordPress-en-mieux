@@ -26,7 +26,8 @@ class Categories extends Controller {
     public function getCategorie() {
         $categorieSQL = new CategorieSQL();
         $categorie = $categorieSQL->prepareFindAll()->execute();
-        $data['categories'] = $categorie;
+        $data['categories'] = $categorie; 
+        $data['url'] = SITEURL;
 
         View::rendertemplate('header', $data);
         Twig::render('Categorie/index', $data);
@@ -34,7 +35,16 @@ class Categories extends Controller {
     }
 
     public function detailCategorie($id) {
-        
+        $articleSQL = new ArticleSQL();
+        //$article = $articleSQL->findById($id); 
+        $article = $articleSQL->prepareFindWithCondition("id_categorie = ".$id)->execute(); 
+
+        $data['article'] = $article;
+        $data['url'] = SITEURL;
+
+        View::rendertemplate('header', $data);
+        Twig::render('Categorie/detail', $data);
+        View::rendertemplate('footer', $data);
     }
 
 }
