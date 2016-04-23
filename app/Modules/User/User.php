@@ -82,6 +82,7 @@ class User extends Controller {
         Session::destroy('loggedin');
         Session::destroy('id');
         Session::destroy('login');
+        Session::destroy('admin');
         setcookie("remember", "", time() - 10000, DIR);
         Session::set('message', 'Vous avez bien été déconnecté');
         Session::set('message_type', 'alert-success');

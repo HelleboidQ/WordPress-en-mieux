@@ -1,4 +1,3 @@
-<!-- Button trigger modal -->
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#addArticle">
     AJOUTER UN ARTICLE
 </button>
@@ -55,18 +54,18 @@
         <tr>
             <td>{{ article.id }}</td>
             <td>{{ article.titre }}</td>
-            <td>{{ article.contenu }}</td>
+            <td>{{ article.contenu | slice(0,46) }}...</td>
             <td>{{ article.date }}</td>
             <td>
                 {% for user in users %}
-                    {% if user.id == article.idUser %}
+                    {% if user.id == article.id_user %}
                         {{ user.login }}
                     {% endif %}
                 {% endfor %}
             </td>
             <td>
                 {% for categorie in categories %}
-                    {% if categorie.id == article.idCategorie %}
+                    {% if categorie.id == article.id_categorie %}
                         {{ categorie.titre }}
                     {% endif %}
                 {% endfor %}

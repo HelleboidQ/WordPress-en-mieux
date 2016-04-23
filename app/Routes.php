@@ -34,6 +34,8 @@ Router::any('/admin/addCategorie', 'App\Controllers\Admin@addCategorie');
 Router::any('/admin/addArticle', 'App\Controllers\Admin@addArticle');
 Router::any('/admin/deleteUser/(:num)', 'App\Controllers\Admin@deleteUser');
 Router::any('/admin/deleteArticle/(:num)', 'App\Controllers\Admin@deleteArticle');
+Router::any('/admin/updateArticle/(:num)', 'App\Controllers\Admin@updateArticle');
+Router::any('/admin/deleteCategorie/(:num)', 'App\Controllers\Admin@deleteCategorie');
 
 //Articles Routing
 Router::any('/article', 'App\Controllers\Articles@getArticles');

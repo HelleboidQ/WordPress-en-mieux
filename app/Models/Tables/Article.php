@@ -29,8 +29,9 @@ class Article extends Entity {
     $id_user = "", $id_categorie = "", $titre = "", $contenu = "", $image = "", $date = "", $id = false) {
         parent::__construct($id);
 
-        $this->idUser = $id_user;
-        $this->idCategorie = $id_categorie;
+
+        $this->id_user = $id_user;
+        $this->id_categorie = $id_categorie;
         $this->titre = $titre;
         $this->contenu = $contenu;
         $this->image = $image;
@@ -41,8 +42,9 @@ class Article extends Entity {
 
     public function getUser() {
         if ($this->user == null || $this->id_user != $user->getId()) {
-            // Il faut récupérer le nouveau
-            $uSQL = new UserSQL(); // Les requêtes pour récupérer une personne
+
+            // Il faut rï¿½cupï¿½rer le nouveau
+            $uSQL = new UserSQL(); // Les requï¿½tes pour rï¿½cupï¿½rer une personne
             $this->user = $uSQL->findById($this->id_user);
         }
         return $this->user;
@@ -50,8 +52,9 @@ class Article extends Entity {
 
     public function getCategorie() {
         if ($this->categorie == null || $this->id_categorie != $categorie->getId() ) {
-            // Il faut récupérer le nouveau
-            $cSQL = new CategorieSQL(); // Les requêtes pour récupérer une personne
+
+            // Il faut rï¿½cupï¿½rer le nouveau
+            $cSQL = new CategorieSQL(); // Les requï¿½tes pour rï¿½cupï¿½rer une personne
             $this->categorie = $cSQL->findById($this->id_categorie);
         }
         return $this->categorie;

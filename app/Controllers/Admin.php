@@ -36,9 +36,10 @@ class Admin extends Controller
     public function manageCategories()
     {
 
-        if($_SESSION['nova_admin'] != 1){
+        $data['title'] = "Gestion categories";
+
+        if(Session::get('admin') != 1)
             Url::redirect('utilisateur/login');
-        }
 
         $categoriesSQL = new CategorieSQL();
         $categories = $categoriesSQL->prepareFindAll()->execute();
@@ -53,9 +54,10 @@ class Admin extends Controller
 
     public function manageArticles()
     {
-        if($_SESSION['nova_admin'] != 1){
+        $data['title'] = "Gestion articles";
+
+        if(Session::get('admin') != 1)
             Url::redirect('utilisateur/login');
-        }
 
         $userSQL = new UserSQL();
         $users = $userSQL->prepareFindAll()->execute();
@@ -78,9 +80,10 @@ class Admin extends Controller
     
     function manageUsers(){
 
-        if($_SESSION['nova_admin'] != 1){
+        $data['title'] = "Gestion utilisateurs";
+
+        if(Session::get('admin') != 1)
             Url::redirect('utilisateur/login');
-        }
         
         $userSQL = new UserSQL();
         $users = $userSQL->prepareFindAll()->execute();
@@ -94,10 +97,6 @@ class Admin extends Controller
         
     }
 
-    function manageComment(){
-
-    }
-    
     function addCategorie(){
 
         if(Session::get('admin') != 1)
@@ -131,16 +130,19 @@ class Admin extends Controller
 
             $nom = md5(uniqid(rand(), true));
 
-            $chemin = "images/".$nom.".".$extension_upload;
+            $chemin = "assets/images/".$nom.".".$extension_upload;
 
-            $resultat = move_uploaded_file($_FILES['icone']['tmp_name'],$chemin);
+            $resultat = move_uploaded_file($_FILES['image']['tmp_name'],$chemin);
             if (!$resultat){
                 Session::set('message',"Probleme lors de l'envoie du fichier");
             }
 
+            echo "le resultat : " . $resultat . "<br/>";
+            echo "le chemin : " . $chemin . "<br/>";
+
             $table_article = new Article(Session::get('id'),$_POST['categorie'],$_POST['titre'],$_POST['contenu'],$chemin,date("Y-m-d"));
             EntityManager::getInstance()->save($table_article);
-            Session::set("message","Article ajouter");
+            Session::set("message","Article ajouté");
             Url::redirect('admin/articles');
         }
         Url::redirect();
@@ -180,16 +182,84 @@ class Admin extends Controller
 
     function deleteCategorie($id){
 
+        $articleSQL = new ArticleSQL();
+        $article = $articleSQL->prepareFindWithCondition("id_categorie = :idc", array(':idc'=>$id))->execute();
+
+        if(sizeof($article) > 0){
+            // si un article utilise la categorie
+            Session::set('message','Un/des article(s) utilise cette categorie, faites le menage avent de supprimer SVP');
+        }else{
+            $categorie = new Categorie();
+            $categorie->setId($id);
+            EntityManager::getInstance()->delete($categorie);
+            Session::set('message','Vous avez supprimé la categorie');
+        }
+
+        Url::redirect("admin/categories");
     }
 
     function deleteArticle($id){
 
-        $articleSQL = new ArticleSQL();
-        $article = $articleSQL->prepareFindWithCondition("id_article = :ida",array(':ida'=>$id))->execute();
+        $commentaireSQL = new CommentaireSQL();
+        $commentaire = $commentaireSQL->prepareFindWithCondition("id_article = :ida",array(':ida'=>$id))->execute();
 
-        echo "<pre>";
-        var_dump($article);
-        echo "</pre>";
-        die();
+        foreach ($commentaire as $c){
+            $commentaire = new Commentaire();
+            $commentaire->setId($c->$id);
+            EntityManager::getInstance()->delete($commentaire);
+        }
+
+        $article = new Article();
+        $article->setId($id);
+        EntityManager::getInstance()->delete($article);
+
+        Session::set('message','Article supprimé');
+        Url::redirect('admin/articles');
+
+    }
+
+    function updateArticle($id){
+
+        $data['title'] = "Mise a jour produit";
+        
+        $articleSQL = new ArticleSQL();
+        $article = $articleSQL->findById($id);
+        
+        
+        $categorieSQL = new CategorieSQL();
+        $categories = $categorieSQL->prepareFindAll()->execute();
+
+        if($_POST['modifier']){
+
+            echo "<pre>";
+            var_dump($_POST);
+            echo "</pre>";
+
+            //die();
+            
+            $idCategorie = $_POST['categorie'];
+            $titre = $_POST['titre'];
+            $contenu = $_POST['contenu'];
+
+            $article = new Article();
+            $article->id_user = Session::get('id');
+            $article->titre = $titre;
+            $article->contenu = $contenu;
+            $article->id_categorie = $idCategorie;
+            $article->date = date('Y-m-d');
+            $article->setId($id);
+
+            EntityManager::getInstance()->save($article);
+            Url::redirect('admin/articles');
+        }
+        
+        $data['article'] = $article;
+        $data['categories'] = $categories;
+        
+        $data['siteurl'] = SITEURL;
+
+        View::rendertemplate('header', $data);
+        Twig::render('Admin/updateArticle', $data);
+        View::rendertemplate('footer', $data);
     }
 }

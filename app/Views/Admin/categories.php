@@ -40,7 +40,9 @@
     <!-- AFFICHAGE DES CATEGORIES -->
     {% for c in categories %}
         <tr>
-            <td>{{ c.id }}</td><td>{{ c.titre }}</td><td><button class="btn btn-default">Action</button></td>
+            <td>{{ c.id }}</td>
+            <td>{{ c.titre }}</td>
+            <td><a class="btn btn-danger" href="{{ siteurl }}admin/deleteCategorie/{{ c.id }}">SUPPRIMER</a></td>
         </tr>
     {% endfor %}
     </tbody>
