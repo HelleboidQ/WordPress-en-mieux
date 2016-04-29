@@ -209,6 +209,11 @@ class Admin extends Controller
             EntityManager::getInstance()->delete($commentaire);
         }
 
+
+        $model_article = new ArticleSQL();
+        $article = $model_article->findById($id);
+        unlink($article->image);
+
         $article = new Article();
         $article->setId($id);
         EntityManager::getInstance()->delete($article);
@@ -223,19 +228,12 @@ class Admin extends Controller
         $data['title'] = "Mise a jour produit";
         
         $articleSQL = new ArticleSQL();
-        $article = $articleSQL->findById($id);
-        
-        
+        $articles = $articleSQL->findById($id);
+
         $categorieSQL = new CategorieSQL();
         $categories = $categorieSQL->prepareFindAll()->execute();
 
         if($_POST['modifier']){
-
-            echo "<pre>";
-            var_dump($_POST);
-            echo "</pre>";
-
-            //die();
             
             $idCategorie = $_POST['categorie'];
             $titre = $_POST['titre'];
@@ -245,6 +243,7 @@ class Admin extends Controller
             $article->id_user = Session::get('id');
             $article->titre = $titre;
             $article->contenu = $contenu;
+            $article->image = $articles->image;
             $article->id_categorie = $idCategorie;
             $article->date = date('Y-m-d');
             $article->setId($id);
@@ -253,7 +252,7 @@ class Admin extends Controller
             Url::redirect('admin/articles');
         }
         
-        $data['article'] = $article;
+        $data['article'] = $articles;
         $data['categories'] = $categories;
         
         $data['siteurl'] = SITEURL;

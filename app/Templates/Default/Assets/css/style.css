@@ -1,1 +1,10 @@
 /* Your styles here */
+/* Your styles here */
+ul#suggest{
+    list-style: none;
+    padding-left: 10px;
+    position: absolute;
+    background: rgb(255, 117, 83);
+    width: 200px;
+    color: white
+}

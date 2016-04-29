@@ -36,6 +36,7 @@ Router::any('/admin/deleteUser/(:num)', 'App\Controllers\Admin@deleteUser');
 Router::any('/admin/deleteArticle/(:num)', 'App\Controllers\Admin@deleteArticle');
 Router::any('/admin/updateArticle/(:num)', 'App\Controllers\Admin@updateArticle');
 Router::any('/admin/deleteCategorie/(:num)', 'App\Controllers\Admin@deleteCategorie');
+Router::any('/articles/getArticlesAjax/(:any)', 'App\Controllers\Articles@getArticlesAjax');
 
 //Articles Routing
 Router::any('/article', 'App\Controllers\Articles@getArticles');

@@ -29,8 +29,6 @@ class Articles extends Controller {
         $data['articles'] = $article;
         $data['url'] = SITEURL;
 
-        //$pdo = \Helpers\DB\DBManager::getInstance()->getPDO();
-
         View::rendertemplate('header', $data);
         Twig::render('Article/index', $data);
         View::rendertemplate('footer', $data);
@@ -45,6 +43,23 @@ class Articles extends Controller {
         View::rendertemplate('header', $data);
         Twig::render('Article/detail', $data);
         View::rendertemplate('footer', $data);
+    }
+
+    function getArticlesAjax($regex){
+        $articleSQL = new ArticleSQL();
+        $article = $articleSQL->prepareFindAll()->orderBy("titre asc")->limit(0, 5)->execute();
+
+        $html = "";
+
+        foreach($article as $a){
+
+            if(substr($a->titre,0,strlen($regex)) == $regex){
+                $html .= "<li><a href='".SITEURL."article/".$a->id."'>".$a->titre."</a></li>";
+            }
+
+        }
+
+        echo $html;
     }
 
 }

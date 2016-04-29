@@ -38,9 +38,9 @@
                     </ul>
                     <form class="navbar-form navbar-left" role="search">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Rechercher...">
+                            <input id='recherche' type="text" class="form-control" placeholder="Rechercher...">
                         </div>
-                        <button type="submit" class="btn btn-default">Rechercher</button>
+                        <ul id="suggest"></ul>
                     </form>
 
             <ul class="nav navbar-nav navbar-right">
