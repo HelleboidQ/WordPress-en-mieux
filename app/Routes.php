@@ -36,11 +36,13 @@ Router::any('/admin/deleteUser/(:num)', 'App\Controllers\Admin@deleteUser');
 Router::any('/admin/deleteArticle/(:num)', 'App\Controllers\Admin@deleteArticle');
 Router::any('/admin/updateArticle/(:num)', 'App\Controllers\Admin@updateArticle');
 Router::any('/admin/deleteCategorie/(:num)', 'App\Controllers\Admin@deleteCategorie');
-Router::any('/articles/getArticlesAjax/(:any)', 'App\Controllers\Articles@getArticlesAjax');
+Router::any('/admin/supprimer_commentaire/(:num)/(:num)', 'App\Controllers\Admin@deleteComment');
 
 //Articles Routing
 Router::any('/article', 'App\Controllers\Articles@getArticles');
+Router::any('/article/ajouter_un_commentaire/(:num)', 'App\Controllers\Articles@addComment');
 Router::any('/article/(:num)', 'App\Controllers\Articles@detailArticle');
+Router::any('/articles/getArticlesAjax/(:any)', 'App\Controllers\Articles@getArticlesAjax');
 
 //Categorie Routing
 Router::any('/categorie', 'App\Controllers\Categories@getCategorie');

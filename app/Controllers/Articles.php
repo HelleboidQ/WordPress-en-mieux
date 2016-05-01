@@ -12,6 +12,7 @@ use App\Models\Tables\Commentaire;
 use App\Models\Tables\User;
 use Core\View;
 use Core\Controller;
+use Helpers\DB\Entity;
 use Helpers\DB\EntityManager;
 use Helpers\Session;
 use Helpers\Twig;
@@ -35,14 +36,42 @@ class Articles extends Controller {
     }
 
     public function detailArticle($id) {
+        
         $articleSQL = new ArticleSQL();
         $article = $articleSQL->findById($id);
+        
+        $commentaires = new CommentaireSQL();
+        $coms = $commentaires->prepareFindWithCondition('id_article = :ida' , array(':ida' => $id))->execute();
+
+        $data['title'] = ucfirst($article->titre);
         $data['article'] = $article;
+        $data['commentaires'] = $coms;
+        $data['isAdmin'] = Session::get('admin');
+        $data['isConnecte'] = Session::get('id');
         $data['url'] = SITEURL;
 
         View::rendertemplate('header', $data);
         Twig::render('Article/detail', $data);
         View::rendertemplate('footer', $data);
+    }
+
+    function addComment($ida){
+
+        if(isset($_POST)){
+
+            $table_commentaire = new Commentaire();
+            $table_commentaire->contenu = $_POST['contenu'];
+            $table_commentaire->date = date('Y-m-d');
+            $table_commentaire->id_article = $ida;
+            $table_commentaire->id_user = Session::get('id');
+
+            EntityManager::getInstance()->save($table_commentaire);
+
+            Session::set('message', "Vous avez ajouter votre commentaire");
+            Url::redirect('article/'.$ida);
+
+        }
+
     }
 
     function getArticlesAjax($regex){
@@ -54,7 +83,7 @@ class Articles extends Controller {
         foreach($article as $a){
 
             if(substr($a->titre,0,strlen($regex)) == $regex){
-                $html .= "<li><a href='".SITEURL."article/".$a->id."'>".$a->titre."</a></li>";
+                $html .= "<li><a href='".SITEURL."article/".$a->getId()."'>".$a->titre."</a></li>";
             }
 
         }

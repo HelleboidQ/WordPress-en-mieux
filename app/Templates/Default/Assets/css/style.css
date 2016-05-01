@@ -9,6 +9,10 @@ ul#suggest{
     color: white
 }
 
+img#imgArticle{
+    margin:25px
+}
+
 p{font-family:'Poppins';font-size:.8em;font-weight:300;color:#fff}
 h3{font-family:'Poppins';font-size:1.1em;font-weight:300;color:#fff}
 .allposts article{height:270px;-webkit-transition:.3s;transition:.3s;width:350px;margin:150px auto 0 auto}

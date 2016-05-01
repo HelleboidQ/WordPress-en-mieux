@@ -10,6 +10,8 @@
 
 namespace App\Models\Tables;
 
+use App\Models\Queries\UserSQL;
+use App\Modules\User\User;
 use Helpers\DB\Entity;
 
 
@@ -34,6 +36,13 @@ class Commentaire extends Entity
         $this->id_user = $idUser;
         $this->contenu = $contenu;
         $this->date = $date;
+    }
+
+    function getUsername(){
+        $model_user = new UserSQL();
+        $user = $model_user->findById($this->id_user);
+
+        return $user->login;
     }
 }
 

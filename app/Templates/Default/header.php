@@ -34,7 +34,7 @@
                     <ul class="nav navbar-nav">
                         <li><a href="<?= SITEURL ?>">Accueil <span class="sr-only">(current)</span></a></li>
                         <li><a href="<?= SITEURL ?>article">Article</a></li>
-                        <li><a href="<?= SITEURL ?>categorie">Cat�gorie</a></li>
+                        <li><a href="<?= SITEURL ?>categorie">Catégorie</a></li>
                     </ul>
                     <form class="navbar-form navbar-left" role="search">
                         <div class="form-group">

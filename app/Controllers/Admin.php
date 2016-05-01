@@ -27,7 +27,6 @@ use Helpers\Url;
 class Admin extends Controller
 {
 
-
     public function __construct()
     {
         parent::__construct();
@@ -35,6 +34,8 @@ class Admin extends Controller
 
     public function manageCategories()
     {
+
+        $this->isAdmin();
 
         $data['title'] = "Gestion categories";
 
@@ -54,6 +55,9 @@ class Admin extends Controller
 
     public function manageArticles()
     {
+
+        $this->isAdmin();
+
         $data['title'] = "Gestion articles";
 
         if(Session::get('admin') != 1)
@@ -80,6 +84,8 @@ class Admin extends Controller
     
     function manageUsers(){
 
+        $this->isAdmin();
+
         $data['title'] = "Gestion utilisateurs";
 
         if(Session::get('admin') != 1)
@@ -99,6 +105,8 @@ class Admin extends Controller
 
     function addCategorie(){
 
+        $this->isAdmin();
+
         if(Session::get('admin') != 1)
             Url::redirect('utilisateur/login');
 
@@ -114,6 +122,8 @@ class Admin extends Controller
     }
 
     function addArticle(){
+
+        $this->isAdmin();
 
         if(Session::get('admin') != 1)
             Url::redirect('utilisateur/login');
@@ -150,6 +160,8 @@ class Admin extends Controller
 
     function deleteUser($id){
 
+        $this->isAdmin();
+
         if(Session::get('admin') != 1)
             Url::redirect('utilisateur/login');
 
@@ -182,6 +194,8 @@ class Admin extends Controller
 
     function deleteCategorie($id){
 
+        $this->isAdmin();
+
         $articleSQL = new ArticleSQL();
         $article = $articleSQL->prepareFindWithCondition("id_categorie = :idc", array(':idc'=>$id))->execute();
 
@@ -199,6 +213,8 @@ class Admin extends Controller
     }
 
     function deleteArticle($id){
+
+        $this->isAdmin();
 
         $commentaireSQL = new CommentaireSQL();
         $commentaire = $commentaireSQL->prepareFindWithCondition("id_article = :ida",array(':ida'=>$id))->execute();
@@ -224,6 +240,8 @@ class Admin extends Controller
     }
 
     function updateArticle($id){
+
+        $this->isAdmin();
 
         $data['title'] = "Mise a jour produit";
         
@@ -260,5 +278,18 @@ class Admin extends Controller
         View::rendertemplate('header', $data);
         Twig::render('Admin/updateArticle', $data);
         View::rendertemplate('footer', $data);
+    }
+
+    function deleteComment($idc,$ida){
+
+        $this->isAdmin();
+
+        $table_coment = new Commentaire();
+        $table_coment->setId($idc);
+        EntityManager::getInstance()->delete($table_coment);
+
+        Session::set('message','Le commentaire a bien été supprimé');
+        Url::redirect('article/'.$ida);
+
     }
 }

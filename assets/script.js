@@ -1,10 +1,11 @@
 $(document).on('ready',function(){
 
+	// Barre de recherche
 	$(document).on('keyup','#recherche',function(input){
 		
 		if($(this).val().length > 0){
 			$.ajax({
-				url: "http://localhost/basenova/articles/getArticlesAjax/" + $(this).val(),
+				url: getUrl() + "articles/getArticlesAjax/" + $(this).val(),
 				get: 'get',
 				data: '',
 				success: function(e){
@@ -19,6 +20,10 @@ $(document).on('ready',function(){
 		}else{
 			$('#suggest').empty();
 		}
-			
 	});
+
+	function getUrl(){
+		return window.location.protocol + '//' + window.location.host + '/' + window.location.pathname.split('/')[1] + '/';
+	}
+
 });

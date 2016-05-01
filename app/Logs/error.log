@@ -3104,3 +3104,943 @@ Exception information:
 
            ---------
 
+Exception information:
+
+           Date: Apr 30, 2016 12:00PM
+
+           Message: Variable "URL" does not exist in "detail.php" at line 15
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/cache/13/13284822c9d7cfd84f31863764f42441fcd46211757a53b6f92d4b063f383e20.php(54): Twig_Template->getContext(Array, 'URL')
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_36de035999e71664872ef2b690b7b5d92660c640627142b1fca2ad76cfcfb22c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#7 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(49): Helpers\Twig::render('Article/detail', Array)
+#8 [internal function]: App\Controllers\Articles->detailArticle('3')
+#9 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#11 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/basenova/app/Routes.php(65): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 14:21PM
+
+           Message: Unexpected token "operator" of value ">" in "detail.php" at line 23.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php
+
+           Line: 190
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(50): Twig_ExpressionParser->parseExpression(31)
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(144): Twig_ExpressionParser->parseExpression()
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(100): Twig_Parser->subparse(NULL, false)
+#5 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(615): Twig_Parser->parse(Object(Twig_TokenStream))
+#6 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->parse(Object(Twig_TokenStream))
+#7 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('<div class="col...', 'detail.php')
+#8 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('detail.php')
+#9 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#10 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#11 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(51): Helpers\Twig::render('Article/detail', Array)
+#12 [internal function]: App\Controllers\Articles->detailArticle('3')
+#13 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#14 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#15 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#16 /Users/jonathanleperu/Sites/basenova/app/Routes.php(65): Core\Router->dispatch()
+#17 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#18 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 14:21PM
+
+           Message: Variable "com" does not exist in "detail.php" at line 23
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 436
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(69): Twig_Template->getContext(Array, 'com')
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_36de035999e71664872ef2b690b7b5d92660c640627142b1fca2ad76cfcfb22c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#7 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(51): Helpers\Twig::render('Article/detail', Array)
+#8 [internal function]: App\Controllers\Articles->detailArticle('3')
+#9 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#11 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/basenova/app/Routes.php(65): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+2016-04-30 14:24PM - Missing argument 1 for App\Controllers\Articles::addComment() in /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php on line 55
+
+Exception information:
+
+           Date: Apr 30, 2016 16:51PM
+
+           Message: Neither the property "getUser" nor one of the methods "getUser()", "getgetUser()"/"isgetUser()" or "__call()" exist and have public access in class "App\Models\Tables\Commentaire" in "detail.php" at line 26
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 584
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(77): Twig_Template->getAttribute(Object(App\Models\Tables\Commentaire), 'getUser', Array, 'method')
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_36de035999e71664872ef2b690b7b5d92660c640627142b1fca2ad76cfcfb22c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#7 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(52): Helpers\Twig::render('Article/detail', Array)
+#8 [internal function]: App\Controllers\Articles->detailArticle('3')
+#9 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#11 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/basenova/app/Routes.php(65): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 16:56PM
+
+           Message: Neither the property "getUser" nor one of the methods "getUser()", "getgetUser()"/"isgetUser()" or "__call()" exist and have public access in class "App\Models\Tables\Commentaire" in "detail.php" at line 26
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 584
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/cache/13/13284822c9d7cfd84f31863764f42441fcd46211757a53b6f92d4b063f383e20.php(77): Twig_Template->getAttribute(Object(App\Models\Tables\Commentaire), 'getUser', Array, 'method')
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_36de035999e71664872ef2b690b7b5d92660c640627142b1fca2ad76cfcfb22c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#7 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(52): Helpers\Twig::render('Article/detail', Array)
+#8 [internal function]: App\Controllers\Articles->detailArticle('3')
+#9 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#11 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/basenova/app/Routes.php(65): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 17:01PM
+
+           Message: Neither the property "admin" nor one of the methods "admin()", "getadmin()"/"isadmin()" or "__call()" exist and have public access in class "App\Models\Tables\Commentaire" in "detail.php" at line 27
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 584
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(78): Twig_Template->getAttribute(Object(App\Models\Tables\Commentaire), 'admin', Array)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_36de035999e71664872ef2b690b7b5d92660c640627142b1fca2ad76cfcfb22c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#7 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(52): Helpers\Twig::render('Article/detail', Array)
+#8 [internal function]: App\Controllers\Articles->detailArticle('3')
+#9 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#11 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/basenova/app/Routes.php(65): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 17:01PM
+
+           Message: Neither the property "admin" nor one of the methods "admin()", "getadmin()"/"isadmin()" or "__call()" exist and have public access in class "App\Models\Tables\Commentaire" in "detail.php" at line 27
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 584
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/cache/13/13284822c9d7cfd84f31863764f42441fcd46211757a53b6f92d4b063f383e20.php(78): Twig_Template->getAttribute(Object(App\Models\Tables\Commentaire), 'admin', Array)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_36de035999e71664872ef2b690b7b5d92660c640627142b1fca2ad76cfcfb22c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#7 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(52): Helpers\Twig::render('Article/detail', Array)
+#8 [internal function]: App\Controllers\Articles->detailArticle('3')
+#9 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#11 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/basenova/app/Routes.php(65): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 17:01PM
+
+           Message: Neither the property "admin" nor one of the methods "admin()", "getadmin()"/"isadmin()" or "__call()" exist and have public access in class "App\Models\Tables\Commentaire" in "detail.php" at line 27
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 584
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/cache/13/13284822c9d7cfd84f31863764f42441fcd46211757a53b6f92d4b063f383e20.php(78): Twig_Template->getAttribute(Object(App\Models\Tables\Commentaire), 'admin', Array)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_36de035999e71664872ef2b690b7b5d92660c640627142b1fca2ad76cfcfb22c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#7 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(56): Helpers\Twig::render('Article/detail', Array)
+#8 [internal function]: App\Controllers\Articles->detailArticle('3')
+#9 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#11 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/basenova/app/Routes.php(65): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 17:02PM
+
+           Message: Neither the property "admin" nor one of the methods "admin()", "getadmin()"/"isadmin()" or "__call()" exist and have public access in class "App\Models\Tables\Commentaire" in "detail.php" at line 27
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 584
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/cache/13/13284822c9d7cfd84f31863764f42441fcd46211757a53b6f92d4b063f383e20.php(78): Twig_Template->getAttribute(Object(App\Models\Tables\Commentaire), 'admin', Array)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_36de035999e71664872ef2b690b7b5d92660c640627142b1fca2ad76cfcfb22c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#7 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(56): Helpers\Twig::render('Article/detail', Array)
+#8 [internal function]: App\Controllers\Articles->detailArticle('3')
+#9 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#11 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/basenova/app/Routes.php(65): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 17:03PM
+
+           Message: Unknown "isAdmin" function in "detail.php" at line 27.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php
+
+           Line: 573
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(351): Twig_ExpressionParser->getFunctionNodeClass('isAdmin', 27)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(144): Twig_ExpressionParser->getFunctionNode('isAdmin', 27)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/TokenParser/If.php(31): Twig_ExpressionParser->parseExpression()
+#5 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_If->parse(Object(Twig_Token))
+#6 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#7 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_For->parse(Object(Twig_Token))
+#8 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(100): Twig_Parser->subparse(NULL, false)
+#9 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(615): Twig_Parser->parse(Object(Twig_TokenStream))
+#10 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->parse(Object(Twig_TokenStream))
+#11 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('<div class="col...', 'detail.php')
+#12 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('detail.php')
+#13 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#14 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#15 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(52): Helpers\Twig::render('Article/detail', Array)
+#16 [internal function]: App\Controllers\Articles->detailArticle('3')
+#17 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#18 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#19 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#20 /Users/jonathanleperu/Sites/basenova/app/Routes.php(65): Core\Router->dispatch()
+#21 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#22 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 17:11PM
+
+           Message: Unexpected token "operator" of value ">" in "detail.php" at line 25.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php
+
+           Line: 190
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(50): Twig_ExpressionParser->parseExpression(31)
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(144): Twig_ExpressionParser->parseExpression()
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/TokenParser/For.php(40): Twig_Parser->subparse(Array)
+#5 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_For->parse(Object(Twig_Token))
+#6 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(100): Twig_Parser->subparse(NULL, false)
+#7 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(615): Twig_Parser->parse(Object(Twig_TokenStream))
+#8 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->parse(Object(Twig_TokenStream))
+#9 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('<div class="col...', 'detail.php')
+#10 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('detail.php')
+#11 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#12 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#13 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(53): Helpers\Twig::render('Article/detail', Array)
+#14 [internal function]: App\Controllers\Articles->detailArticle('3')
+#15 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#16 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#17 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#18 /Users/jonathanleperu/Sites/basenova/app/Routes.php(65): Core\Router->dispatch()
+#19 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#20 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 17:57PM
+
+           Message: Unknown "isConnecte" function in "detail.php" at line 39.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php
+
+           Line: 573
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(351): Twig_ExpressionParser->getFunctionNodeClass('isConnecte', 39)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(144): Twig_ExpressionParser->getFunctionNode('isConnecte', 39)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/TokenParser/If.php(31): Twig_ExpressionParser->parseExpression()
+#5 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_If->parse(Object(Twig_Token))
+#6 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(100): Twig_Parser->subparse(NULL, false)
+#7 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(615): Twig_Parser->parse(Object(Twig_TokenStream))
+#8 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->parse(Object(Twig_TokenStream))
+#9 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('<div class="col...', 'detail.php')
+#10 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('detail.php')
+#11 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#12 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#13 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(53): Helpers\Twig::render('Article/detail', Array)
+#14 [internal function]: App\Controllers\Articles->detailArticle('3')
+#15 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#16 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#17 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#18 /Users/jonathanleperu/Sites/basenova/app/Routes.php(66): Core\Router->dispatch()
+#19 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#20 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 17:59PM
+
+           Message: Unknown "isConnecte" function in "detail.php" at line 39.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php
+
+           Line: 573
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(351): Twig_ExpressionParser->getFunctionNodeClass('isConnecte', 39)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(144): Twig_ExpressionParser->getFunctionNode('isConnecte', 39)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/TokenParser/If.php(31): Twig_ExpressionParser->parseExpression()
+#5 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_If->parse(Object(Twig_Token))
+#6 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(100): Twig_Parser->subparse(NULL, false)
+#7 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(615): Twig_Parser->parse(Object(Twig_TokenStream))
+#8 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->parse(Object(Twig_TokenStream))
+#9 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('<div class="col...', 'detail.php')
+#10 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('detail.php')
+#11 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#12 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#13 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(54): Helpers\Twig::render('Article/detail', Array)
+#14 [internal function]: App\Controllers\Articles->detailArticle('3')
+#15 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#16 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#17 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#18 /Users/jonathanleperu/Sites/basenova/app/Routes.php(66): Core\Router->dispatch()
+#19 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#20 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 17:59PM
+
+           Message: Unknown "isConnecte" function in "detail.php" at line 39.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php
+
+           Line: 573
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(351): Twig_ExpressionParser->getFunctionNodeClass('isConnecte', 39)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(144): Twig_ExpressionParser->getFunctionNode('isConnecte', 39)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/TokenParser/If.php(31): Twig_ExpressionParser->parseExpression()
+#5 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_If->parse(Object(Twig_Token))
+#6 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(100): Twig_Parser->subparse(NULL, false)
+#7 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(615): Twig_Parser->parse(Object(Twig_TokenStream))
+#8 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->parse(Object(Twig_TokenStream))
+#9 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('<div class="col...', 'detail.php')
+#10 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('detail.php')
+#11 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#12 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#13 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(54): Helpers\Twig::render('Article/detail', Array)
+#14 [internal function]: App\Controllers\Articles->detailArticle('3')
+#15 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#16 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#17 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#18 /Users/jonathanleperu/Sites/basenova/app/Routes.php(66): Core\Router->dispatch()
+#19 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#20 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 17:59PM
+
+           Message: Unknown "isConnecte" function in "detail.php" at line 39.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php
+
+           Line: 573
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(351): Twig_ExpressionParser->getFunctionNodeClass('isConnecte', 39)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(144): Twig_ExpressionParser->getFunctionNode('isConnecte', 39)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/TokenParser/If.php(31): Twig_ExpressionParser->parseExpression()
+#5 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_If->parse(Object(Twig_Token))
+#6 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(100): Twig_Parser->subparse(NULL, false)
+#7 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(615): Twig_Parser->parse(Object(Twig_TokenStream))
+#8 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->parse(Object(Twig_TokenStream))
+#9 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('<div class="col...', 'detail.php')
+#10 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('detail.php')
+#11 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#12 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#13 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(54): Helpers\Twig::render('Article/detail', Array)
+#14 [internal function]: App\Controllers\Articles->detailArticle('3')
+#15 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#16 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#17 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#18 /Users/jonathanleperu/Sites/basenova/app/Routes.php(66): Core\Router->dispatch()
+#19 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#20 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 17:59PM
+
+           Message: Unknown "isConnecte" function in "detail.php" at line 39.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php
+
+           Line: 573
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(351): Twig_ExpressionParser->getFunctionNodeClass('isConnecte', 39)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(144): Twig_ExpressionParser->getFunctionNode('isConnecte', 39)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/TokenParser/If.php(31): Twig_ExpressionParser->parseExpression()
+#5 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_If->parse(Object(Twig_Token))
+#6 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(100): Twig_Parser->subparse(NULL, false)
+#7 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(615): Twig_Parser->parse(Object(Twig_TokenStream))
+#8 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->parse(Object(Twig_TokenStream))
+#9 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('<div class="col...', 'detail.php')
+#10 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('detail.php')
+#11 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#12 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#13 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(54): Helpers\Twig::render('Article/detail', Array)
+#14 [internal function]: App\Controllers\Articles->detailArticle('3')
+#15 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#16 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#17 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#18 /Users/jonathanleperu/Sites/basenova/app/Routes.php(66): Core\Router->dispatch()
+#19 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#20 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 17:59PM
+
+           Message: Unknown "isConnecte" function in "detail.php" at line 39.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php
+
+           Line: 573
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(351): Twig_ExpressionParser->getFunctionNodeClass('isConnecte', 39)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(144): Twig_ExpressionParser->getFunctionNode('isConnecte', 39)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/TokenParser/If.php(31): Twig_ExpressionParser->parseExpression()
+#5 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_If->parse(Object(Twig_Token))
+#6 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(100): Twig_Parser->subparse(NULL, false)
+#7 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(615): Twig_Parser->parse(Object(Twig_TokenStream))
+#8 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->parse(Object(Twig_TokenStream))
+#9 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('<div class="col...', 'detail.php')
+#10 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('detail.php')
+#11 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#12 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#13 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(54): Helpers\Twig::render('Article/detail', Array)
+#14 [internal function]: App\Controllers\Articles->detailArticle('3')
+#15 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#16 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#17 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#18 /Users/jonathanleperu/Sites/basenova/app/Routes.php(66): Core\Router->dispatch()
+#19 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#20 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 17:59PM
+
+           Message: Unknown "isConnecte" function in "detail.php" at line 39.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php
+
+           Line: 573
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(351): Twig_ExpressionParser->getFunctionNodeClass('isConnecte', 39)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(144): Twig_ExpressionParser->getFunctionNode('isConnecte', 39)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/TokenParser/If.php(31): Twig_ExpressionParser->parseExpression()
+#5 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_If->parse(Object(Twig_Token))
+#6 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(100): Twig_Parser->subparse(NULL, false)
+#7 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(615): Twig_Parser->parse(Object(Twig_TokenStream))
+#8 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->parse(Object(Twig_TokenStream))
+#9 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('<div class="col...', 'detail.php')
+#10 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('detail.php')
+#11 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#12 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#13 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(54): Helpers\Twig::render('Article/detail', Array)
+#14 [internal function]: App\Controllers\Articles->detailArticle('3')
+#15 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#16 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#17 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#18 /Users/jonathanleperu/Sites/basenova/app/Routes.php(66): Core\Router->dispatch()
+#19 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#20 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 17:59PM
+
+           Message: Unknown "isConnecte" function in "detail.php" at line 39.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php
+
+           Line: 573
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(351): Twig_ExpressionParser->getFunctionNodeClass('isConnecte', 39)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(144): Twig_ExpressionParser->getFunctionNode('isConnecte', 39)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/TokenParser/If.php(31): Twig_ExpressionParser->parseExpression()
+#5 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_If->parse(Object(Twig_Token))
+#6 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(100): Twig_Parser->subparse(NULL, false)
+#7 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(615): Twig_Parser->parse(Object(Twig_TokenStream))
+#8 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->parse(Object(Twig_TokenStream))
+#9 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('<div class="col...', 'detail.php')
+#10 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('detail.php')
+#11 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#12 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#13 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(54): Helpers\Twig::render('Article/detail', Array)
+#14 [internal function]: App\Controllers\Articles->detailArticle('3')
+#15 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#16 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#17 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#18 /Users/jonathanleperu/Sites/basenova/app/Routes.php(66): Core\Router->dispatch()
+#19 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#20 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 17:59PM
+
+           Message: Unknown "isConnecte" function in "detail.php" at line 39.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php
+
+           Line: 573
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(351): Twig_ExpressionParser->getFunctionNodeClass('isConnecte', 39)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(144): Twig_ExpressionParser->getFunctionNode('isConnecte', 39)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(84): Twig_ExpressionParser->parsePrimaryExpression()
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/ExpressionParser.php(41): Twig_ExpressionParser->getPrimary()
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/TokenParser/If.php(31): Twig_ExpressionParser->parseExpression()
+#5 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(187): Twig_TokenParser_If->parse(Object(Twig_Token))
+#6 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Parser.php(100): Twig_Parser->subparse(NULL, false)
+#7 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(615): Twig_Parser->parse(Object(Twig_TokenStream))
+#8 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->parse(Object(Twig_TokenStream))
+#9 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('<div class="col...', 'detail.php')
+#10 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('detail.php')
+#11 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#12 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#13 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(54): Helpers\Twig::render('Article/detail', Array)
+#14 [internal function]: App\Controllers\Articles->detailArticle('3')
+#15 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#16 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#17 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#18 /Users/jonathanleperu/Sites/basenova/app/Routes.php(66): Core\Router->dispatch()
+#19 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#20 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 20:34PM
+
+           Message: Impossible to access an attribute ("id_categorie") on a boolean variable ("") in "detail.php" at line 2
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 503
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/cache/13/13284822c9d7cfd84f31863764f42441fcd46211757a53b6f92d4b063f383e20.php(26): Twig_Template->getAttribute(false, 'id_categorie', Array)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_36de035999e71664872ef2b690b7b5d92660c640627142b1fca2ad76cfcfb22c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#7 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(54): Helpers\Twig::render('Article/detail', Array)
+#8 [internal function]: App\Controllers\Articles->detailArticle('2')
+#9 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#11 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/basenova/app/Routes.php(66): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+2016-04-30 20:37PM - Missing argument 1 for App\Controllers\Articles::detailArticle() in /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php on line 38
+
+Exception information:
+
+           Date: Apr 30, 2016 20:37PM
+
+           Message: Impossible to access an attribute ("id_categorie") on a boolean variable ("") in "detail.php" at line 2
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 503
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/cache/13/13284822c9d7cfd84f31863764f42441fcd46211757a53b6f92d4b063f383e20.php(26): Twig_Template->getAttribute(false, 'id_categorie', Array)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_36de035999e71664872ef2b690b7b5d92660c640627142b1fca2ad76cfcfb22c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#7 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(54): Helpers\Twig::render('Article/detail', Array)
+#8 [internal function]: App\Controllers\Articles->detailArticle()
+#9 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#11 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/basenova/app/Routes.php(66): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 20:37PM
+
+           Message: Impossible to access an attribute ("id_categorie") on a boolean variable ("") in "detail.php" at line 2
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 503
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/cache/13/13284822c9d7cfd84f31863764f42441fcd46211757a53b6f92d4b063f383e20.php(26): Twig_Template->getAttribute(false, 'id_categorie', Array)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_36de035999e71664872ef2b690b7b5d92660c640627142b1fca2ad76cfcfb22c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#7 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(54): Helpers\Twig::render('Article/detail', Array)
+#8 [internal function]: App\Controllers\Articles->detailArticle('1')
+#9 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#11 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/basenova/app/Routes.php(66): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 20:46PM
+
+           Message: Impossible to access an attribute ("id_categorie") on a boolean variable ("") in "detail.php" at line 2
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 503
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(403) : eval()'d code(26): Twig_Template->getAttribute(false, 'id_categorie', Array)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_36de035999e71664872ef2b690b7b5d92660c640627142b1fca2ad76cfcfb22c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#7 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(54): Helpers\Twig::render('Article/detail', Array)
+#8 [internal function]: App\Controllers\Articles->detailArticle('1')
+#9 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#11 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/basenova/app/Routes.php(66): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 20:46PM
+
+           Message: Impossible to access an attribute ("id_categorie") on a boolean variable ("") in "detail.php" at line 2
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 503
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/cache/13/13284822c9d7cfd84f31863764f42441fcd46211757a53b6f92d4b063f383e20.php(26): Twig_Template->getAttribute(false, 'id_categorie', Array)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_36de035999e71664872ef2b690b7b5d92660c640627142b1fca2ad76cfcfb22c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#7 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(58): Helpers\Twig::render('Article/detail', Array)
+#8 [internal function]: App\Controllers\Articles->detailArticle('1')
+#9 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#11 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/basenova/app/Routes.php(66): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 20:46PM
+
+           Message: Impossible to access an attribute ("id_categorie") on a boolean variable ("") in "detail.php" at line 2
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 503
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/cache/13/13284822c9d7cfd84f31863764f42441fcd46211757a53b6f92d4b063f383e20.php(26): Twig_Template->getAttribute(false, 'id_categorie', Array)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_36de035999e71664872ef2b690b7b5d92660c640627142b1fca2ad76cfcfb22c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#7 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(58): Helpers\Twig::render('Article/detail', Array)
+#8 [internal function]: App\Controllers\Articles->detailArticle('2')
+#9 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#11 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/basenova/app/Routes.php(66): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
+Exception information:
+
+           Date: Apr 30, 2016 20:50PM
+
+           Message: Impossible to access an attribute ("id_categorie") on a boolean variable ("") in "detail.php" at line 2
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php
+
+           Line: 503
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/cache/13/13284822c9d7cfd84f31863764f42441fcd46211757a53b6f92d4b063f383e20.php(26): Twig_Template->getAttribute(false, 'id_categorie', Array)
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(381): __TwigTemplate_36de035999e71664872ef2b690b7b5d92660c640627142b1fca2ad76cfcfb22c->doDisplay(Array, Array)
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(355): Twig_Template->displayWithErrorHandling(Array, Array)
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Template.php(366): Twig_Template->display(Array)
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Template->render(Array)
+#5 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#6 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Article/detail', Array, 'php')
+#7 /Users/jonathanleperu/Sites/basenova/app/Controllers/Articles.php(54): Helpers\Twig::render('Article/detail', Array)
+#8 [internal function]: App\Controllers\Articles->detailArticle('1')
+#9 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#10 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailArticle', Array)
+#11 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#12 /Users/jonathanleperu/Sites/basenova/app/Routes.php(66): Core\Router->dispatch()
+#13 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#14 {main}
+
+           ---------
+
