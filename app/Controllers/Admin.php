@@ -221,7 +221,7 @@ class Admin extends Controller
 
         foreach ($commentaire as $c){
             $commentaire = new Commentaire();
-            $commentaire->setId($c->$id);
+            $commentaire->setId($c->getId());
             EntityManager::getInstance()->delete($commentaire);
         }
 

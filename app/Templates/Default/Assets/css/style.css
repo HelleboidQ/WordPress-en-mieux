@@ -4,17 +4,30 @@ ul#suggest{
     list-style: none;
     padding-left: 10px;
     position: absolute;
-    background: rgb(255, 117, 83);
-    width: 200px;
-    color: white
+    background: #f2f2f2;
+    width: 180px;
+    border-radius: 2px;
+    border: 1px solid #bfbfbf;
+}
+ul#suggest li{
+    height : 30px;
+    padding: 5px;
+}
+
+ul#suggest a{
+    color: black;
+    text-decoration: none;
 }
 
 img#imgArticle{
     margin:25px
 }
+.detailArticle .contenu{
+    margin-top: 25px;
+}
 
-p{font-family:'Poppins';font-size:.8em;font-weight:300;color:#fff}
-h3{font-family:'Poppins';font-size:1.1em;font-weight:300;color:#fff}
+.extrait p{font-family:'Poppins';font-size:.8em;font-weight:300;color:#fff}
+.titlepost h3{font-family:'Poppins';font-size:1.1em;font-weight:300;color:#fff}
 .allposts article{height:270px;-webkit-transition:.3s;transition:.3s;width:350px;margin:150px auto 0 auto}
 .allposts article a{display:block;position:relative;width:100%;height:270px;overflow:hidden;border-radius:6px;-webkit-transition:.3s;transition:.3s}
 .allposts article a img{position:absolute;top:0;left:0;z-index:990;border-radius:6px;height:100%;-webkit-transition:.1s;transition:.1s;width:100%}

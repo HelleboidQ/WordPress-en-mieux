@@ -28,6 +28,7 @@ class Categories extends Controller {
         $categorie = $categorieSQL->prepareFindAll()->execute();
         $data['categories'] = $categorie; 
         $data['url'] = SITEURL;
+        $data['title'] = "Toutes les catégories";
 
         View::rendertemplate('header', $data);
         Twig::render('Categorie/index', $data);

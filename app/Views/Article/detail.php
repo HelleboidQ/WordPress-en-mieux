@@ -3,17 +3,17 @@
 
     <hr>
 
-    <h2>{{ article.titre }}</h2>
+    <h2>{{ article.titre | capitalize }}</h2>
 
     <div class="row">
         <div class="author col-md-6">
             <small><i>Le {{ article.date | date("d/m/Y") }} - Par {{ article.user.login }}</i></small>
         </div>
     </div>
-    <div class="row">
+    <div class="row detailArticle">
         <div class="col-md-12 text-justify">
             <img id="imgArticle" class="pull-left col-md-3" src="{{url}}{{ article.image }}"/>
-            {{ article.contenu }}
+            <p class="contenu">{{ article.contenu }}</p>
         </div>
     </div>
 
