@@ -41,7 +41,17 @@
                     <?php
                     foreach ($articles as $a):
                         ?>
-                        <img src="<?= siteurl . $a->image;?>" />
+                        <a href="article/<?= $a->getId(); ?>">
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                <div class="thumbnail">
+                                    <img src="<?= $siteurl . $a->image; ?>"/>
+                                    <div class="caption">
+                                        <h4><?= $a->titre ?></h4>
+                                        <p><?= substr($a->contenu, 0, 50) ?>...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                         <?php
                     endforeach;
                     ?>
