@@ -1,28 +1,33 @@
-$(document).on('ready',function(){
+$(document).on('ready', function () {
 
-	// Barre de recherche
-	$(document).on('keyup','#recherche',function(input){
-		
-		if($(this).val().length > 0 && !$(this).val().match(' ')){
-			$.ajax({
-				url: getUrl() + "articles/getArticlesAjax/" + $(this).val(),
-				get: 'get',
-				data: '',
-				success: function(e){
-					$('#suggest').empty();
-					$('#suggest').html(e);
-				},
-				error: function(e){
-					console.log('error ' + e);
-				}
-			});
-		}else{
-			$('#suggest').empty();
-		}
-	});
+    // Barre de recherche
+    $(document).on('keyup', '#recherche', function (input) {
+        $('#suggest').show();
 
-	function getUrl(){
-		return window.location.protocol + '//' + window.location.host + '/' + window.location.pathname.split('/')[1] + '/';
-	}
+        if ($(this).val().length > 0 && !$(this).val().match(' ')) {
+            $.ajax({
+                url: getUrl() + "articles/getArticlesAjax/" + $(this).val(),
+                get: 'get',
+                data: '',
+                success: function (e) {
+                    $('#suggest').empty();
+                    $('#suggest').html(e);
+                },
+                error: function (e) {
+                    console.log('error ' + e);
+                }
+            });
+        } else {
+            $('#suggest').empty();
+        }
+    });
+    $('#suggest').hide();
+    $(document).on('blur', '#recherche', function () {
+        $('#suggest').hide();
+    });
+
+    function getUrl() {
+        return window.location.protocol + '//' + window.location.host + '/' + window.location.pathname.split('/')[1] + '/';
+    }
 
 });
