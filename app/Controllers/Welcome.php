@@ -8,6 +8,7 @@
 
 namespace App\Controllers;
 
+use App\Models\Queries\ArticleSQL;
 use Core\View;
 use Core\Controller;
 
@@ -32,6 +33,12 @@ class Welcome extends Controller
     {
         $data['title'] = $this->language->get('welcomeText');
         $data['welcomeMessage'] = $this->language->get('welcomeMessage');
+
+        $model_Article = new ArticleSQL();
+        $articles = $model_Article->prepareFindAll()->limit(0,2)->execute();
+
+        $data['articles'] = $articles;
+        $data['siteurl'] = SITEURL;
 
         View::renderTemplate('header', $data);
         View::render('Welcome/Welcome', $data);
