@@ -8,6 +8,7 @@
     Assets::css([
         'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css',
         Url::templatePath() . 'css/style.css',
+        Url::templatePath() . 'css/sass.scss',
     ]);
     echo $css; //place to pass data / plugable hook zone
     ?>
