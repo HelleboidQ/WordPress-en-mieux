@@ -80,5 +80,5 @@
     <?= ((Session::get('message') != "") ? '<div class="alert alert-info" role="alert">' . (Session::get('message')) . '</div>' : "") ?>
     <?php Session::set('message', ""); ?>
 
-    <p><img src='<?= Url::templatePath(); ?>images/nova.png' alt='<?= SITETITLE; ?>'></p>
+   
 
