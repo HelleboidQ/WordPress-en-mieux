@@ -27,7 +27,7 @@
                     {% if isAdmin %}
                     <a href="{{ url }}admin/supprimer_commentaire/{{ com.getID() }}/{{ article.id }}" ><i class="glyphicon glyphicon-remove pull-right"></i></a>
                     {% endif %}
-                    <small><i>@Author : {{ com.getUsername() }}</i></small>
+                    <small><i>@Author : {{ com.getUsername() }}</i></small> - <small><i>Le : {{ article.date | date("d/m/Y") }}</i></small>
                 </div>
                 {{ com.contenu }}
             </div>
