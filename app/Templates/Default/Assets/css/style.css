@@ -38,7 +38,7 @@ img#imgArticle{
 .allposts article a .extrait{position:absolute;z-index:995;left:20px;bottom:-100px;width:-webkit-calc( 100% - 40px);width:calc( 100% - 40px);-webkit-transition:.3s;transition:.3s;opacity:0}
 .allposts article:hover a{box-shadow:0px 25px 43px 0px #ba8ef1;filter:progid:DXImageTransform.Microsoft.Shadow(color=#ba8ef1, Direction=180, Strength=43)}
 .allposts article:hover a img{-webkit-filter:grayscale(100%);filter:grayscale(100%)}
-.allposts article:hover a .degpost{background:-webkit-linear-gradient(top, rgba(125,185,232,0) 0%, #9753ea 100%);background:linear-gradient(to bottom, rgba(125,185,232,0) 0%, #9753ea 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#9753ea',GradientType=0 )}
+.allposts article:hover a .degpost{background:-webkit-linear-gradient(top, rgba(125,185,232,0) 0%, #9753ea 100%);background:linear-gradient(to bottom, rgba(125,185,232,0) 0%, #CE5541 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#9753ea',GradientType=0 )}
 .allposts article:hover a .titlepost{bottom:120px}
 .allposts article:hover a .infospost{bottom:100px}
 .allposts article:hover a .extrait{bottom:10px;opacity:1}
