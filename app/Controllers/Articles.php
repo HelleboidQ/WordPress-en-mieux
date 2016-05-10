@@ -18,16 +18,13 @@ use Helpers\Session;
 use Helpers\Twig;
 use Helpers\Url;
 
-class Articles extends Controller
-{
+class Articles extends Controller {
 
-    public function __construct()
-    {
+    public function __construct() {
         parent::__construct();
     }
 
-    public function getArticles()
-    {
+    public function getArticles() {
         $articleSQL = new ArticleSQL();
         $article = $articleSQL->prepareFindAll()->orderBy("id desc")->limit(0, 10)->execute();
         $data['articles'] = $article;
@@ -39,29 +36,31 @@ class Articles extends Controller
         View::rendertemplate('footer', $data);
     }
 
-    public function detailArticle($id)
-    {
+    public function detailArticle($id) {
 
         $articleSQL = new ArticleSQL();
         $article = $articleSQL->findById($id);
 
-        $commentaires = new CommentaireSQL();
-        $coms = $commentaires->prepareFindWithCondition('id_article = :ida', array(':ida' => $id))->execute();
+        if ($article == "") {
+            $this->getArticles();
+        } else {
+            $commentaires = new CommentaireSQL();
+            $coms = $commentaires->prepareFindWithCondition('id_article = :ida', array(':ida' => $id))->execute();
 
-        $data['title'] = ucfirst($article->titre);
-        $data['article'] = $article;
-        $data['commentaires'] = $coms;
-        $data['isAdmin'] = Session::get('admin');
-        $data['isConnecte'] = Session::get('id');
-        $data['url'] = SITEURL;
+            $data['title'] = ucfirst($article->titre);
+            $data['article'] = $article;
+            $data['commentaires'] = $coms;
+            $data['isAdmin'] = Session::get('admin');
+            $data['isConnecte'] = Session::get('id');
+            $data['url'] = SITEURL;
 
-        View::rendertemplate('header', $data);
-        Twig::render('Article/detail', $data);
-        View::rendertemplate('footer', $data);
+            View::rendertemplate('header', $data);
+            Twig::render('Article/detail', $data);
+            View::rendertemplate('footer', $data);
+        }
     }
 
-    function addComment($ida)
-    {
+    function addComment($ida) {
 
         if (isset($_POST)) {
 
@@ -75,13 +74,10 @@ class Articles extends Controller
 
             Session::set('message', "Vous avez ajouter votre commentaire");
             Url::redirect('article/' . $ida);
-
         }
-
     }
 
-    function getArticlesAjax($regex)
-    {
+    function getArticlesAjax($regex) {
 
         $articleSQL = new ArticleSQL();
         $article = $articleSQL->prepareFindAll()->orderBy("titre asc")->limit(0, 5)->execute();
@@ -93,7 +89,6 @@ class Articles extends Controller
             if (substr($a->titre, 0, strlen($regex)) == $regex) {
                 $html .= "<li><a href='" . SITEURL . "article/" . $a->getId() . "'>" . ucfirst($a->titre) . "</a></li>";
             }
-
         }
 
         echo $html;
