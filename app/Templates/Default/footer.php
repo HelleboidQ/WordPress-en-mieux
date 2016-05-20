@@ -1,7 +1,13 @@
+<div class="container">
 
+    <hr>
+
+</div>
 <div id="footer">
     <div class="container">
+
         <p class="text-muted credit">Par Quentin H. et Jonathan L.</p>
+
     </div>
 </div>
 

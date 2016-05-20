@@ -3911,7 +3911,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse {
   background-color: #018ba0;
-  border-color: #015f6d;
+  border-color:  rgba(255,255,255,0.4);
 }
 .navbar-inverse .navbar-brand {
   color: #f4f4f4;
@@ -3936,7 +3936,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #015f6d;
+  background-color:  rgba(255,255,255,0.4);
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -3961,7 +3961,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #015f6d;
+  background-color:  rgba(255,255,255,0.4);
   color: #ffffff;
 }
 .navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
@@ -3980,7 +3980,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #015f6d;
+    border-color:  rgba(255,255,255,0.4);
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #f4f4f4;
@@ -3994,7 +3994,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #015f6d;
+    background-color:  rgba(255,255,255,0.4);
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -4210,7 +4210,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .label-primary[href]:hover,
 .label-primary[href]:focus {
-  background-color: #015f6d;
+  background-color:  rgba(255,255,255,0.4);
 }
 .label-success {
   background-color: #5cb85c;
@@ -6008,7 +6008,7 @@ h6 {
 }
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #015f6d;
+  background-color:  rgba(255,255,255,0.4);
   border-color: #015663;
 }
 .btn-success {
@@ -6223,7 +6223,7 @@ h6 {
 .list-group-item.active,
 .list-group-item.active:hover,
 .list-group-item.active:focus {
-  text-shadow: 0 -1px 0 #015f6d;
+  text-shadow: 0 -1px 0  rgba(255,255,255,0.4);
   background-image: -webkit-gradient(linear, left 0%, left 100%, from(#018ba0), to(#016a7a));
   background-image: -webkit-linear-gradient(top, #018ba0, 0%, #016a7a, 100%);
   background-image: -moz-linear-gradient(top, #018ba0 0%, #016a7a 100%);

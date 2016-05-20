@@ -1,4 +1,8 @@
-<div class="container"> 
+<div class="container">
+
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#addArticle">
+    AJOUTER UN ARTICLE
+</button>
 
     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#addArticle">
         AJOUTER UN ARTICLE
@@ -131,3 +135,5 @@
     });
 
 </script>
+
+</div>
