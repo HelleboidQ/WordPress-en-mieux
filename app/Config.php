@@ -87,7 +87,7 @@ class Config
          * Database password.
          */
 
-        define('DB_PASS', 'root');
+        define('DB_PASS', 'gvwgz4v');
 
 
         /**

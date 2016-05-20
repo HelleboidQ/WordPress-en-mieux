@@ -7,9 +7,9 @@ use Core\Error;
 	<div class="row">
 		<div class="col-md-12">
 
-			<h1>404</h1>
+			<h1>Page 404 :(</h1>
 
-			<?php echo $data['error'];?>
+			La page "<?php echo $data['error'];?>" n'existe pas.
 
 			<hr />
 

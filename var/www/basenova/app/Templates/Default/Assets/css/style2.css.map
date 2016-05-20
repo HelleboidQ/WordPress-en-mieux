@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,IAAK;EACH,IAAI,EAAE,0BAAgB;EACtB,KAAK,EAJS,IAAI;EAKlB,SAAS,EAAC,IAAI",
+"sources": ["../../../../../../../../app/Templates/Default/Assets/css/sass.scss"],
+"names": [],
+"file": "style2.css"
+}
