@@ -1,6 +1,4 @@
 <div class="container">
-
-
     <form method='post' action="<?php echo DIR;?>utilisateur/login">
         <h2 class="form-signin-heading">Connexion</h2>
         <label>Login : </label>
@@ -11,5 +9,4 @@
         <input type='checkbox' name="remember"/>
         <input class="btn btn-lg btn-primary btn-block" type="submit" value="Valider" />
     </form>
-
 </div> <!-- /container -->

@@ -1,3 +1,5 @@
+<div class="container">
+
 <table class="table">
     <thead>
     <tr>
@@ -20,3 +22,4 @@
     {% endfor %}
     </tbody>
 </table>
+</div>

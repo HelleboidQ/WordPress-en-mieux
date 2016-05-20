@@ -21,5 +21,7 @@ return array(
 	// Buttons
 	'openSubpage' => 'Ouvrir la sous-page',
 	'backHome' => 'Accueil',
+	
+	
 
 );

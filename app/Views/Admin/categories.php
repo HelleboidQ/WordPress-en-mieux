@@ -1,3 +1,5 @@
+
+<div class="container">
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#addCategorie">
     AJOUTER UNE CATEGORIE
@@ -46,4 +48,4 @@
         </tr>
     {% endfor %}
     </tbody>
-</table>
+</table></div>

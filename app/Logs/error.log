@@ -4044,3 +4044,36 @@ Exception information:
 
            ---------
 
+Exception information:
+
+           Date: May 20, 2016 10:23AM
+
+           Message: Unexpected character "$" in "detail.php" at line 4.
+
+           Code: 0
+
+           File: /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Lexer.php
+
+           Line: 284
+
+           Stack trace:
+
+           #0 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Lexer.php(216): Twig_Lexer->lexExpression()
+#1 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Lexer.php(115): Twig_Lexer->lexVar()
+#2 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(577): Twig_Lexer->tokenize('\n<div class="co...', 'detail.php')
+#3 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(667): Twig_Environment->tokenize('\n<div class="co...', 'detail.php')
+#4 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(396): Twig_Environment->compileSource('\n<div class="co...', 'detail.php')
+#5 /Users/jonathanleperu/Sites/basenova/vendor/twig/twig/lib/Twig/Environment.php(347): Twig_Environment->loadTemplate('detail.php')
+#6 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(87): Twig_Environment->render('detail.php', Array)
+#7 /Users/jonathanleperu/Sites/basenova/system/Helpers/Twig.php(54): Helpers\Twig::generateRendering('Categorie/detai...', Array, 'php')
+#8 /Users/jonathanleperu/Sites/basenova/app/Controllers/Categories.php(47): Helpers\Twig::render('Categorie/detai...', Array)
+#9 [internal function]: App\Controllers\Categories->detailCategorie('1')
+#10 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(213): call_user_func_array(Array, Array)
+#11 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(244): Core\Router->invokeController('App\\Controllers...', 'detailCategorie', Array)
+#12 /Users/jonathanleperu/Sites/basenova/system/Core/Router.php(281): Core\Router->invokeObject('App\\Controllers...', Array)
+#13 /Users/jonathanleperu/Sites/basenova/app/Routes.php(66): Core\Router->dispatch()
+#14 /Users/jonathanleperu/Sites/basenova/index.php(73): require('/Users/jonathan...')
+#15 {main}
+
+           ---------
+

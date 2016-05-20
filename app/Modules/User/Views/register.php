@@ -1,6 +1,4 @@
 <div class="container">
-
-
     <form method='post' action="<?php echo DIR;?>utilisateur/inscription">
         <h2 class="form-signin-heading">Inscription</h2>
         <label>Login : </label>

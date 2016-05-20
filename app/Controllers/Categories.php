@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\Queries\ArticleSQL;
 use App\Models\Queries\CategorieSQL;
+use Core\Language;
 use Core\View;
 use Core\Controller;
 use Helpers\Twig;
@@ -27,16 +28,23 @@ class Categories extends Controller {
     }
 
     public function detailCategorie($id) {
+
+        $categorieSQL = new CategorieSQL();
+        $categorie = $categorieSQL->findById($id);
+        
         $articleSQL = new ArticleSQL();
         //$article = $articleSQL->findById($id); 
         $article = $articleSQL->prepareFindWithCondition("id_categorie = ".$id)->execute(); 
 
+        $data['categorie'] = $categorie;
         $data['article'] = $article;
         $data['url'] = SITEURL;
 
         View::rendertemplate('header', $data);
         Twig::render('Categorie/detail', $data);
         View::rendertemplate('footer', $data);
+        
+        
     }
 
 }

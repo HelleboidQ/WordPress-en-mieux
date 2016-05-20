@@ -1,15 +1,3 @@
-<section>
-    <div class="jumbotron" style="margin-top:-20px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-lg-12">
-                    <h1>Bootstrap v.3.0. stable</h1>
-                    <p>CLASSIC PLUS UI theme 1.0. by @bootstraptor This is .jumbotron header Some text...</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <div class="container">
     <div class="row">
