@@ -1,9 +1,6 @@
 <div class="container">
 
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#addArticle">
-    AJOUTER UN ARTICLE
-</button>
-
+ 
     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#addArticle">
         AJOUTER UN ARTICLE
     </button>
@@ -94,14 +91,12 @@
         </tbody>
     </table> 
 
-    <div id="texte">Votre texte ...</div>
 </div>
 
 <script>
-    CKEDITOR.replace('contenu');
 
     $(document).ready(function () {
-        $('#texte').summernote({
+        $('#contenu').summernote({
             height: 500,
             minHeight: 500,
             maxHeight: null,
@@ -125,7 +120,7 @@
                         contentType: false,
                         processData: false,
                         success: function (url) {
-                            $('#texte').summernote('insertImage', url);
+                            $('#contenu').summernote('insertImage', url);
                         }
                     });
                 }

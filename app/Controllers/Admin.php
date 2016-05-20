@@ -288,13 +288,13 @@ class Admin extends Controller {
     public function uploadEditor() {
         $this->isAdmin();
 
-        $config['upload_path'] = "../assets/images";
+        $config['upload_path'] = "assets/images/";
         $config['allowed_types'] = "*";
         $upload = new \Helpers\Upload($config);
         if ($upload->do_upload('img')) {
             echo DIR . "assets/images/" . $upload->file_name;
         } else {
-            echo 0;
+            echo "   ".getcwd();
         }
     }
 
