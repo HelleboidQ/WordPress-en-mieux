@@ -83,8 +83,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-lg-12">
-                    <h1>Bootstrap v.3.0. stable</h1>
-                    <p>CLASSIC PLUS UI theme 1.0. by @bootstraptor This is .jumbotron header Some text...</p>
+                    <h1>WordPresse V2</h1> 
                 </div>
             </div>
         </div>

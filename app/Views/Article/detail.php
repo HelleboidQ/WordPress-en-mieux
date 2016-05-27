@@ -34,7 +34,7 @@
                         {% endif %}
                         <small><i>@Author : {{ com.getUsername() }}</i></small>
                         -
-                        <small><i>Le : {{ article.date | date("d/m/Y") }}</i></small>
+                        <small><i>Le : {{ com.date | date("d/m/Y") }}</i></small>
                     </div>
                     {{ com.contenu }}
                 </div>
