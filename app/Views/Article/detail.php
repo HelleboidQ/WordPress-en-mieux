@@ -2,8 +2,8 @@
 
 <div class="container">
     <div class="col-md-12">
-        <a href="{{url}}"><span class="glyphicon glyphicon-home"></span></a> > <a href="{{url}}categorie/{{ article.id_categorie }}">{{ article.categorie.titre
-            }}</a> > {{ article.titre }}
+        <a href="{{url}}"><span class="glyphicon glyphicon-home"></span></a> <i class="glyphicon glyphicon-menu-right"></i> <a href="{{url}}categorie/{{ article.id_categorie }}">{{ article.categorie.titre
+            }}</a> <i class="glyphicon glyphicon-menu-right"></i> {{ article.titre }}
 
         <hr>
 
@@ -16,13 +16,13 @@
         </div>
         <div class="row detailArticle">
             <div class="col-md-12 text-justify">
-                <img id="imgArticle" class="pull-left col-md-3" src="{{url}}{{ article.image }}"/>
-                <p class="contenu">{{ article.contenu }}</p>
+                <img id="imgArticle" class="pull-left col-md-3 col-xs-12" src="{{url}}{{ article.image }}"/>
+                <p class="contenu col-xs-12 col-md-12">{{ article.contenu }}</p>
             </div>
         </div>
 
 
-        <h2>Les commentaires : </h2>
+        <h2>Les commentaires </h2>
         {% for com in commentaires %}
         <div class="row">
             <div class="col-md-12" id="commentaires">

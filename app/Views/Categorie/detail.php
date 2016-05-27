@@ -2,7 +2,7 @@
 
 <div class="container">
 
-    <a href="{{url}}"><span class="glyphicon glyphicon-home"></span></a> > <a href="{{url}}categorie">Catégorie</a> > {{
+    <a href="{{url}}"><span class="glyphicon glyphicon-home"></span></a> <i class="glyphicon glyphicon-menu-right"></i> <a href="{{url}}categorie">Catégorie</a> <i class="glyphicon glyphicon-menu-right"></i> {{
     categorie.titre }}
 
     <hr>

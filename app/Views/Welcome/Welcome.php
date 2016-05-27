@@ -5,7 +5,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">LOGO</div>
                 <div class="panel-body">
-                    <p class="col-md-6"><img src='<?= Url::templatePath(); ?>images/nova.png' alt='<?= SITETITLE; ?>'>
+                    <p class="col-md-6"><img class="img-responsive" src='<?= Url::templatePath(); ?>images/nova.png' alt='<?= SITETITLE; ?>'>
                     </p>
                     <p class="col-md-6">On sait depuis longtemps que travailler avec du texte lisible et contenant du
                         sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même.
@@ -30,7 +30,7 @@
                     foreach ($articles as $a):
                         ?>
                         <a href="article/<?= $a->getId(); ?>">
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                                 <div class="thumbnail">
                                     <img src="<?= $siteurl . $a->image; ?>"/>
                                     <div class="caption">

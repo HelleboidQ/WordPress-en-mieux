@@ -1,6 +1,6 @@
 <div class="container">
 
-    <a href="{{url}}"><span class="glyphicon glyphicon-home"></span></a> > Article
+    <a href="{{url}}"><span class="glyphicon glyphicon-home"></span></a> <i class="glyphicon glyphicon-menu-right"></i> Article
 
     <hr>
 
