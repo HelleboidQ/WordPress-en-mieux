@@ -58,7 +58,7 @@
             <tr>
                 <td>{{ article.id }}</td>
                 <td>{{ article.titre }}</td>
-                <td>{{ article.contenu | slice(0,46) }}...</td>
+                <td>{{ article.contenu | slice(0,46) | escape }}...</td>
                 <td>{{ article.date }}</td>
                 <td>
                     {% for user in users %}

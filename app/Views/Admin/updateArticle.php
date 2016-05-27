@@ -20,6 +20,39 @@
     </div>
 </form>
 
-<script>
-    CKEDITOR.replace('contenu');
+<script> 
+    $(document).ready(function () {
+        $('#contenu').summernote({
+            height: 500,
+            minHeight: 500,
+            maxHeight: null,
+            toolbar: [
+                ['main', ['style']],
+                ['style', ['bold', 'italic', 'underline', 'strikethroungh', 'superscript', 'subscript', 'clear']],
+                ['para', ['ul', 'ol', 'paragraph']],
+                ['insert', ['link', 'picture', 'video', 'table', 'hr']],
+                ['misc', ['codeview', 'help']]
+            ],
+            callbacks: {
+                onImageUpload: function (files, editor, welEditable) {
+                    console.log(welEditable);
+                    data = new FormData();
+                    data.append("img", files[0]);
+                    $.ajax({
+                        data: data,
+                        type: "POST",
+                        url: "http://localhost/basenova/admin/articleAjoutImage",
+                        cache: false,
+                        contentType: false,
+                        processData: false,
+                        success: function (url) {
+                            $('#contenu').summernote('insertImage', url);
+                        }
+                    });
+                }
+            }
+        });
+
+    });
+
 </script>
