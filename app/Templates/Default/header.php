@@ -83,7 +83,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-lg-12">
-                    <h1>WordPresse V2</h1> 
+                    <h1>WordPress V2</h1> 
                 </div>
             </div>
         </div>
