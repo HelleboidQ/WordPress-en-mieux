@@ -49,7 +49,7 @@
                 <label for="commentaire">Commentaire : </label>
                 <textarea id="commentaire" class="form-control" placeholder="Votre commentaire"
                           name="contenu"></textarea>
-                <button type="submit" value="ajouterCommentaire" class="btn btn-success pull-right">Ajouter</button>
+                <button type="submit" value="ajouterCommentaire" class="btn btn-danger pull-right">Ajouter</button>
             </div>
         </form>
         {% endif %}
