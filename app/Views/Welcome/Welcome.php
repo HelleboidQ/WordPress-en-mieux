@@ -35,7 +35,7 @@
                                     <img src="<?= $siteurl . $a->image; ?>"/>
                                     <div class="caption">
                                         <h4><?= $a->titre ?></h4>
-                                        <p><?= substr($a->contenu, 0, 50) ?>...</p>
+                                        <p><?= substr($a->contenu, 0, 50) ?><span class="glyphicon glyphicon-option-horizontal"></span></p>
                                     </div>
                                 </div>
                             </div>

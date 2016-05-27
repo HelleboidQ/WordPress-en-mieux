@@ -200,7 +200,7 @@ class Admin extends Controller {
             $categorie = new Categorie();
             $categorie->setId($id);
             EntityManager::getInstance()->delete($categorie);
-            Session::set('message', 'Vous avez supprimé la categorie');
+            Session::set('message', 'Vous avez supprimï¿½ la categorie');
         }
 
         Url::redirect("admin/categories");
@@ -228,7 +228,7 @@ class Admin extends Controller {
         $article->setId($id);
         EntityManager::getInstance()->delete($article);
 
-        Session::set('message', 'Article supprimé');
+        Session::set('message', 'Article supprimÃ©');
         Url::redirect('admin/articles');
     }
 
@@ -281,7 +281,7 @@ class Admin extends Controller {
         $table_coment->setId($idc);
         EntityManager::getInstance()->delete($table_coment);
 
-        Session::set('message', 'Le commentaire à bien été supprimé');
+        Session::set('message', 'Le commentaire ï¿½ bien ï¿½tï¿½ supprimï¿½');
         Url::redirect('article/' . $ida);
     }
 

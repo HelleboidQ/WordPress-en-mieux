@@ -8,6 +8,7 @@ use Core\Language;
 use Core\View;
 use Core\Controller;
 use Helpers\Twig;
+use Helpers\Url;
 
 class Categories extends Controller {
 
@@ -32,19 +33,27 @@ class Categories extends Controller {
         $categorieSQL = new CategorieSQL();
         $categorie = $categorieSQL->findById($id);
         
-        $articleSQL = new ArticleSQL();
-        //$article = $articleSQL->findById($id); 
-        $article = $articleSQL->prepareFindWithCondition("id_categorie = ".$id)->execute(); 
-
-        $data['categorie'] = $categorie;
-        $data['article'] = $article;
-        $data['url'] = SITEURL;
-
-        View::rendertemplate('header', $data);
-        Twig::render('Categorie/detail', $data);
-        View::rendertemplate('footer', $data);
+        if($categorie){
         
-        
+            $articleSQL = new ArticleSQL();
+            //$article = $articleSQL->findById($id);
+            $article = $articleSQL->prepareFindWithCondition("id_categorie = ".$id)->execute();
+
+            $data['categorie'] = $categorie;
+            $data['article'] = $article;
+            $data['url'] = SITEURL;
+            $data['title'] = $categorie->titre;
+
+            View::rendertemplate('header', $data);
+            Twig::render('Categorie/detail', $data);
+            View::rendertemplate('footer', $data);
+
+        }else{
+
+            $this->getCategorie();
+
+        }
+
     }
 
 }

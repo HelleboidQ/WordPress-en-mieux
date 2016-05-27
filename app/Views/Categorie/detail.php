@@ -1,7 +1,9 @@
+{% if article | length > 0 %}
 
 <div class="container">
 
-    <a href="{{url}}"><span class="glyphicon glyphicon-home"></span></a> > <a href="{{url}}categorie">Catégorie</a> > {{ categorie.titre }}
+    <a href="{{url}}"><span class="glyphicon glyphicon-home"></span></a> > <a href="{{url}}categorie">Catégorie</a> > {{
+    categorie.titre }}
 
     <hr>
 
@@ -32,3 +34,10 @@
         {% endfor %}
     </div>
 </div>
+{% else %}
+
+<div class="container">
+    Aucune catégorie n'est disponible
+</div>
+
+{% endif %}

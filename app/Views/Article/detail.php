@@ -1,3 +1,5 @@
+
+
 <div class="container">
     <div class="col-md-12">
         <a href="{{url}}"><span class="glyphicon glyphicon-home"></span></a> > <a href="{{url}}categorie/{{ article.id_categorie }}">{{ article.categorie.titre

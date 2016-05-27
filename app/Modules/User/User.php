@@ -165,7 +165,7 @@ class User extends Controller {
                     $error[] = 'Ce compte email existe déjà.';
             } else
                 $error = $is_valid;
-            print_r($error);
+
             if (!$error) {
                 //Register and return the data as an array $data[]
                 $user = new \App\Models\Tables\User($_POST['login'], $_POST['email'], Password::make($_POST['password']), "", 0);

@@ -20,66 +20,6 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.1/summernote.js"></script>
     </head>
     <body>
-        <?php /* echo $afterBody; //place to pass data / plugable hook zone */ ?>
-        <!--<nav class="navbar navbar-default">-->
-        <!--    <div class="container-fluid">-->
-        <!--        <div class="navbar-header">-->
-        <!--            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"-->
-        <!--                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">-->
-        <!--                <span class="sr-only">Toggle navigation</span>-->
-        <!--                <span class="icon-bar"></span>-->
-        <!--                <span class="icon-bar"></span>-->
-        <!--                <span class="icon-bar"></span>-->
-        <!--            </button>-->
-        <!--            <a class="navbar-brand" href="--><?//= SITEURL ?><!--">--><?//= SITETITLE ?><!--</a>-->
-        <!--        </div>-->
-        <!---->
-        <!--                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
-        <!--                    <ul class="nav navbar-nav">-->
-        <!--                        <li><a href="--><?//= SITEURL ?><!--">Accueil <span class="sr-only">(current)</span></a></li>-->
-        <!--                        <li><a href="--><?//= SITEURL ?><!--article">Article</a></li>-->
-        <!--                        <li><a href="--><?//= SITEURL ?><!--categorie">Catégorie</a></li>-->
-        <!--                    </ul>-->
-        <!--                    <form class="navbar-form navbar-left" role="search">-->
-        <!--                        <div class="form-group">-->
-        <!--                            <input id='recherche' type="text" class="form-control" placeholder="Rechercher...">-->
-        <!--                        </div>-->
-        <!--                        <ul id="suggest"></ul>-->
-        <!--                    </form>-->
-        <!---->
-        <!--            <ul class="nav navbar-nav navbar-right">-->
-        <!--                --><?php //if (Session::get('loggedin') != 1) {  ?>
-        <!--                    <li><a href="--><?//= SITEURL ?><!--utilisateur/login">Login</a></li>-->
-        <!--                    <li><a href="--><?//= SITEURL ?><!--utilisateur/inscription">Inscirption</a></li>-->
-        <!--                --><?php //}  ?>
-        <!--                --><?php //if (Session::get('admin') == 1 && Session::get('loggedin') == 1) {  ?>
-        <!--                    <li class="dropdown">-->
-        <!--                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"-->
-        <!--                           aria-expanded="false">Admin <span class="caret"></span></a>-->
-        <!--                        <ul class="dropdown-menu">-->
-        <!--                            <li><a href="--><?//= SITEURL ?><!--admin/users">Gestion des utilisateurs</a></li>-->
-        <!--                            <li><a href="--><?//= SITEURL ?><!--admin/categories">Gestion des catégories</a></li>-->
-        <!--                            <li><a href="--><?//= SITEURL ?><!--admin/articles">Gestion des articles</a></li>-->
-        <!--                            <li role="separator" class="divider"></li>-->
-        <!--                            <li><a href="--><?//= SITEURL ?><!--utilisateur/logout">Logout</a></li>-->
-        <!--                        </ul>-->
-        <!--                    </li>-->
-        <!--                --><?php //} else if (Session::get('loggedin') == 1) {  ?>
-        <!--                    <li class="dropdown">-->
-        <!--                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"-->
-        <!--                           aria-expanded="false">Profil <span class="caret"></span></a>-->
-        <!--                        <ul class="dropdown-menu">-->
-        <!--                            <li><a href="--><?//= SITEURL ?><!--utilisateur/modification">Modifier profil</a></li>-->
-        <!--                            <li role="separator" class="divider"></li>-->
-        <!--                            <li><a href="--><?//= SITEURL ?><!--utilisateur/logout">Logout</a></li>-->
-        <!--                        </ul>-->
-        <!--                    </li>-->
-        <!--                --><?php //}  ?>
-        <!--            </ul>-->
-        <!--        </div>-->
-        <!--    </div>-->
-        <!--</nav>-->
-
         <nav class="navbar navbar-inverse navbar-fixed-top " role="navigation">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -102,7 +42,7 @@
                     </ul>
                     <form class="navbar-form navbar-left" role="search">
                         <div class="form-group">
-                            <input id='recherche' type="text" class="form-control" placeholder="Rechercher...">
+                            <input id='recherche' type="text" class="form-control" placeholder="Rechercher..." autocomplete="off">
                         </div>
                         <ul id="suggest"></ul>
                     </form>
@@ -151,7 +91,7 @@
     </div>
 </section>
 
-        <?= ((Session::get('message') != "") ? '<div class="alert alert-info" role="alert">' . (Session::get('message')) . '</div>' : "") ?>
+        <?= ((Session::get('message') != "") ? '<div class="container"><div class="alert alert-info" role="alert">' . (Session::get('message')) . '</div></div>' : "") ?>
         <?php Session::set('message', ""); ?>
 
 
