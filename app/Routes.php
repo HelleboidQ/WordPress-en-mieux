@@ -38,6 +38,7 @@ Router::any('/admin/updateArticle/(:num)', 'App\Controllers\Admin@updateArticle'
 Router::any('/admin/deleteCategorie/(:num)', 'App\Controllers\Admin@deleteCategorie');
 Router::any('/admin/supprimer_commentaire/(:num)/(:num)', 'App\Controllers\Admin@deleteComment');
 Router::any('/admin/articleAjoutImage', 'App\Controllers\Admin@uploadEditor');
+Router::any('/admin/changeOwner/(:num)/(:num)', 'App\Controllers\Admin@changeOwner');
 
 //Articles Routing
 Router::any('/article', 'App\Controllers\Articles@getArticles');

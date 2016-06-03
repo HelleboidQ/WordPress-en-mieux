@@ -27,4 +27,31 @@ $(document).on('ready', function () {
         return window.location.protocol + '//' + window.location.host + '/' + window.location.pathname.split('/')[1] + '/';
     }
 
+
+    $('.material-switch input').on('change', function () {
+
+
+
+        if ($(this).is(':checked')) {
+            // ajout les droits
+            // console.log($(this).attr('tag'));
+            $.ajax({
+                url: getUrl() + "admin/changeOwner/" + $(this).attr('tag') + "/1",
+                get: 'get',
+                data: '',
+                success: function (e) {
+                    console.log(e);
+                }
+            });
+        }
+        else
+            {
+                // supprime les droits
+                $.ajax({
+                    url: getUrl() + "admin/changeOwner/" + $(this).attr('tag') + "/0",
+                    get: 'get',
+                    data: '',
+                });
+            }
+    });
 });

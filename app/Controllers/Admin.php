@@ -91,6 +91,7 @@ class Admin extends Controller {
         $userSQL = new UserSQL();
         $users = $userSQL->prepareFindAll()->execute();
         $data['users'] = $users;
+        $data['session_id'] = Session::get('id');
 
         $data['siteurl'] = SITEURL;
 
@@ -200,7 +201,7 @@ class Admin extends Controller {
             $categorie = new Categorie();
             $categorie->setId($id);
             EntityManager::getInstance()->delete($categorie);
-            Session::set('message', 'Vous avez supprim� la categorie');
+            Session::set('message', 'Vous avez supprimé la categorie');
         }
 
         Url::redirect("admin/categories");
@@ -296,6 +297,25 @@ class Admin extends Controller {
         } else {
             echo "   ".getcwd();
         }
+    }
+    
+    function changeOwner($uid,$admin){
+
+        $model_user = new UserSQL();
+        $user = $model_user->findById($uid);
+
+        echo $user->login;
+
+        $table_user = new User();
+        $table_user->setId($uid);
+        $table_user->admin = $admin;
+        $table_user->cookie = $user->cookie;
+        $table_user->email = $user->email;
+        $table_user->login = $user->login;
+        $table_user->password = $user->password;
+
+        EntityManager::getInstance()->save($table_user);
+        
     }
 
 }
