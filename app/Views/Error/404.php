@@ -40,8 +40,7 @@ use Core\Error;
                 <a href="#" id="restart">Redémarrer</a>
                 <a href="#" id="pause">Pause</a>
                 <span id="vie1"> Vie : </span> <span id="vie2">  </span>
-                <span id="score1"> Score : </span> <span id="score2">  </span>				
-                <span class="timer1"> Timer : </span><span id="timer2">  </span><span class="timer1">sec </span>
+                <span id="score1"> Score : </span> <span id="score2">  </span>				 
                 <span id="message">  </span>
 
                 <div id="difficulte">
