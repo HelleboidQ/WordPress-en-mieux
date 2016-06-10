@@ -1,27 +1,60 @@
 <?php
 
 use Core\Error;
-
 ?>
+<style>
+    #restart{
+        display:none;
+    }
+    #pause{
+        display:none;
+    }
+    #score1{
+        display:none;
+    } 
+    #vie1{
+        display:none;
+    }
+    .timer1{
+        display:none;
+    } 
+    #difficulte{
+        display:none;
+    } 
+</style>
+
+
 <div class="container content">
-	<div class="row">
-		<div class="col-md-12">
+    <div class="row">
+        <div class="col-md-12">
 
-			<h1>Page 404 :(</h1>
+            <h1>Page 404 :(</h1>
 
-			La page "<?php echo $data['error'];?>" n'existe pas.
+            La page "<?php echo $data['error']; ?>" n'existe pas.
 
-			<hr />
+            <hr />
+ 
+          
+             <div>
+                <a href="#" id="start">Démarrer</a> 
+                <a href="#" id="restart">Redémarrer</a>
+                <a href="#" id="pause">Pause</a>
+                <span id="vie1"> Vie : </span> <span id="vie2">  </span>
+                <span id="score1"> Score : </span> <span id="score2">  </span>				
+                <span class="timer1"> Timer : </span><span id="timer2">  </span><span class="timer1">sec </span>
+                <span id="message">  </span>
 
-			<h3>The page you were looking for could not be found</h3>
-			<p>This could be the result of the page being removed, the name being changed or the page being temporarily unavailable</p>
-			<h3>Troubleshooting</h3>
+                <div id="difficulte">
+                    <a href="#" id="facile">Facile</a> 
+                    <a href="#" id="moyen">Moyen</a> 
+                    <a href="#" id="difficile">DIFFICILE</a> 
+                </div>
+            </div>
 
-			<ul>
-			  <li>If you spelled the URL manually, double check the spelling</li>
-			  <li>Go to our website's home page, and navigate to the content in question</li>
-			</ul>
+            <canvas id="canvas" width="998" height="500" style="border:2px solid blue;margin: 0 auto;">
 
-		</div>
-	</div>
+            </canvas>
+
+        </div>
+    </div>
 </div>
