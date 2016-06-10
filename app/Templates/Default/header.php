@@ -10,14 +10,23 @@
             Url::templatePath() . 'css/style.css',
             Url::templatePath() . 'css/theme.css',
             Url::templatePath() . 'css/sass.scss',
+            Url::templatePath() . 'css/casseBrique.css',
+            Url::templatePath() . 'css/sweetalert.css'
         ]);
-        echo $css; //place to pass data / plugable hook zone
+        echo $css; //place to pass data / plugable hook zone 
         ?>
         <script src="//cdn.ckeditor.com/4.5.8/standard/ckeditor.js"></script> 
-        
+
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
         <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.1/summernote.css" rel="stylesheet">
         <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.1/summernote.js"></script>
+
+        <?php
+        Assets::js([
+            Url::templatePath() . 'js/cb.js',
+            Url::templatePath() . 'js/sweetalert.min.js'
+        ]);
+        ?>
     </head>
     <body>
         <nav class="navbar navbar-inverse navbar-fixed-top " role="navigation">
@@ -78,17 +87,17 @@
                 </div><!-- /.navbar-collapse -->
             </div>
         </nav>
-<section>
-    <div class="jumbotron" style="margin-top:-20px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-lg-12">
-                    <h1>WordPress V2</h1> 
+        <section>
+            <div class="jumbotron" style="margin-top:-20px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-12">
+                            <h1>WordPress V2</h1> 
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
         <?= ((Session::get('message') != "") ? '<div class="container"><div class="alert alert-info" role="alert">' . (Session::get('message')) . '</div></div>' : "") ?>
         <?php Session::set('message', ""); ?>
