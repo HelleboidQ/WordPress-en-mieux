@@ -27,6 +27,8 @@ $(document).on('ready', function () {
         return window.location.protocol + '//' + window.location.host + '/' + window.location.pathname.split('/')[1] + '/';
     }
 
+    $('.detailArticle img').addClass('img-responsive');
+
 
     $('.material-switch input').on('change', function () {
 
